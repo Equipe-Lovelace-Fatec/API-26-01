@@ -13,9 +13,9 @@ Inicio
       escreval ("----------------")
       escreval ("  CALCULADORA")
       escreval ("----------------")
-      escreval ("1 - Sequência de Cubos")
-      escreval ("2 - Números Primos")
-      escreval ("3 - Sequência Tribonacci")
+      escreval ("1 - SequÃªncia de Cubos")
+      escreval ("2 - NÃºmeros Primos")
+      escreval ("3 - SequÃªncia Tribonacci")
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
@@ -24,22 +24,22 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("-------------------")
-            escreval ("SEQUÊNCIA DE CUBOS")
+            escreval ("SEQUÃŠNCIA DE CUBOS")
             escreval ("-------------------")
-            escreval ("Escolha o número inteiro inicial:")
+            escreval ("Escolha o nÃºmero inteiro inicial:")
             escreval ("(Entre -99999 e 99999)")
             leia (inicial)
-            escreval ("Escolha o número inteiro final:")
+            escreval ("Escolha o nÃºmero inteiro final:")
             escreval ("(Entre -99999 e 99999)")
             leia (final)
             escreval ("------------------------------------------------------")
-            escreval ("A Sequência de Cubos entre", inicial, " e", final, " é:")
+            escreval ("A SequÃªncia de Cubos entre", inicial, " e", final, " Ã©:")
             para i de inicial ate final faca
                resultado <- i * i * i
-               escreval (i, "³ = ", resultado)
+               escreval (i, "Â³ = ", resultado)
             fimpara
             escreval ("")
-            escreval ("Deseja calcular outra sequência de cubos? (s/n)")
+            escreval ("Deseja calcular outra sequÃªncia de cubos? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -49,9 +49,9 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval("--------------------")
-            escreval("SEQUÊNCIA DE PRIMOS")
+            escreval("SEQUÃŠNCIA DE PRIMOS")
             escreval("--------------------")
-            escreva("Quantos elementos terá a sequência? ")
+            escreva("Quantos elementos terÃ¡ a sequÃªncia? ")
             leia(sequencia)
 
             num <- 1
@@ -67,11 +67,11 @@ Inicio
 
                se (num > 1) e (d = 2)entao
                   contador <- contador + 1
-                  escreval (contador, "° número primo:",num)
+                  escreval (contador, "Â° nÃºmero primo:",num)
                fimse
                num <- num + 1
             fimenquanto
-            escreval ("Deseja calcular outro número primo? (s/n)")
+            escreval ("Deseja calcular outro nÃºmero primo? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -81,21 +81,28 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("--------------------")
-            escreval ("SEQUÊNCIA TRIBONACCI")
+            escreval ("SEQUÃŠNCIA TRIBONACCI")
             escreval ("--------------------")
-            Escreval("Digite os três primeiros termos de sua sequência")
-            leia (termo[1], termo[2], termo[3])
-            Escreval("Quantos termos quer em sua sequência?")
+            Escreval("Quantos termos quer em sua sequÃªncia?")
             leia(n)
-            se n < 4 entao
-               Escreval("Escreva um valor que seja maior ou igual a 4!")
+            termo[1] <- 0
+            termo[2] <- 0
+            termo[3] <- 1
+            se n<1 entao
+            limpatela
+               Escreval("Escreva um valor que seja maior ou igual a 1!")
             senao
-               para i de 4 ate n faca
-                  termo[i] <- termo[i-1] + termo[i-2] + termo[i-3]
-               fimpara
-               para i de 1 ate n faca
-                  escreval(termo[i], " ")
-               fimpara
+               se n>60 entao
+               limpatela
+                  Escreval("Limite excedido. Escreva um valor que seja menor ou igual a 60!")
+               senao
+                  para i de 4 ate n faca
+                     termo[i] <- termo[i-1] + termo[i-2] + termo[i-3]
+                  fimpara
+                  para i de 1 ate n faca
+                     escreval(termo[i], " ")
+                  fimpara
+               fimse
             fimse
             escreval ("Deseja calcular outro Tribonacci? (s/n)")
             leia (repetir)
@@ -108,12 +115,12 @@ Inicio
          escreval ("triangular")
          escreval ("fatorial")
          escreval ("quadrados perfeitos")
-         escreval ("sequencia geométrica")
+         escreval ("sequencia geomÃ©trica")
          escreval ("sequencia alternada")
       fimse
 
       Se opcao = 0 entao
-         escreval ("Você escolheu sair")
+         escreval ("VocÃª escolheu sair")
       fimse
 
       se opcao <> 0 entao
