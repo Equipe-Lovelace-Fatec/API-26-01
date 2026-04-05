@@ -1,4 +1,9 @@
 # API-26-01
+
+🚀 Desafio
+Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendido no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
+
+
 ## 📋 Backlog do Produto
 
 | Rank | Prioridade | User Story | Sprint |
