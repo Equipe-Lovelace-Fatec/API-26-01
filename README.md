@@ -30,3 +30,12 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 | Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
 <div>
+
+
+### 💻 Tecnologias <a id="tecnologias"></a>
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisualG 3.0
+
