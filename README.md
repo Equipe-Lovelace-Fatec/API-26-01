@@ -21,11 +21,11 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
   
 | Membro | Função | Github | LinkedIn |
 |:----:|:----:|:----:|:----:|
-| Lívia Dias | Product Owner | Link Git | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/livia-dias-b2977a344) |
-| Larissa de Paula | Scrum Master | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/lari-juno/) |
-| Allana Natasha | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/allana-natasha-gomes?utm_source=share_via&utm_content=profile&utm_medium=member_ios) |
+| Lívia Dias | Product Owner | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/lili15-star) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/livia-dias-b2977a344) |
+| Larissa de Paula | Scrum Master | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/larijuno) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/lari-juno/) |
+| Allana Natasha | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/AllanaNatasha) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/allana-natasha-gomes?utm_source=share_via&utm_content=profile&utm_medium=member_ios) |
 | Amanda Emiliano | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/amanda-emiliano-0822b2200/) |
-| Anderson Ilo | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/anderson-ilo-212b18182/) |
+| Anderson Ilo | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/AndersonIlo) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/anderson-ilo-212b18182/) |
 | Vitória Souza | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/cs-vitoria) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-souza-2a9a45391/) |
 | Vitória Vieira Alves | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
