@@ -15,6 +15,8 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 | 5 | Alta | Como usuário da calculadora, quero ter uma função que liste a sequência de números primos para obter o resultado de forma eficiente e prática. | 1 |
 | 6 | Alta| Como usuário da calculadora, quero ter uma função que calcule a sequência de tribonacci para obter o resultado de forma eficiente e prática. | 1 |
 
+---
+
 ## 👩‍💻 Equipe
 
 <div align="center">
@@ -30,12 +32,13 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 | Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
 <div>
-
-
+---
 
 ### 💻 Tecnologias <a id="tecnologias"></a>
-- **Versionador:** Github
-- **Ferramenta de gestão:** Jira
--  **Linguagem:** Portugol
-- **Plataforma:** VisualG 3.0
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisualG 3.0
+
 
