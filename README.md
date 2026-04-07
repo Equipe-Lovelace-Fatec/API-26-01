@@ -32,10 +32,10 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 <div>
 
 
-### 💻 Tecnologias <a id="tecnologias"></a>
 
--   **Versionador:** Github
--   **Ferramenta de gestão:** Jira
--   **Linguagem:** Portugol
--   **Plataforma:** VisualG 3.0
+### 💻 Tecnologias <a id="tecnologias"></a>
+- **Versionador:** Github
+- **Ferramenta de gestão:** Jira
+-  **Linguagem:** Portugol
+- **Plataforma:** VisualG 3.0
 
