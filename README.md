@@ -1,7 +1,18 @@
 ## API-26-01
 
+<div align="center">
+  <img width="337" height="305" alt="image" src="https://github.com/user-attachments/assets/d446b835-299c-4777-a2bf-c9d114403136" />
+ 
+  
+  <h2>Equipe Lovelace</h2>
+</div>
+
+
+
+Projeto Acadêmico | API 1° semestre 2026 | Fatec
+
 🚀 Desafio
-Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendido no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
+Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendido no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
 
 
 ## 📋 Backlog do Produto
@@ -13,9 +24,24 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 | 3 | Alta | Como usuário da calculadora, quero continuar executando cálculos até decidir encerrar o programa. | 1 |
 | 4 | Alta | Como usuário da calculadora, quero ter uma função que calcule a sequência de de cubos para obter o resultado de forma eficiente e prática. | 1 |
 | 5 | Alta | Como usuário da calculadora, quero ter uma função que liste a sequência de números primos para obter o resultado de forma eficiente e prática. | 1 |
-| 6 | Alta| Como usuário da calculadora, quero ter uma função que calcule a sequência de tribonacci para obter o resultado de forma eficiente e prática. | 1 |
+| 6 | Alta| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de tribonacci para obter o resultado de forma eficiente e prática. | 1 |
+| 7 |Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de Fibonacci para obter o resultado de forma eficiente e prática. | 2 |
+| 8 | Média| Como usuário da calculadora, quero ter uma função que calcule o número triangular de acordo com a quantidade de termos eschilda de forma eficiente e prática. | 2 |
+| 9 | Média| Como usuário da calculadora, quero ter uma função que calceule e liste a sequência fatorial para obter o resultado de forma eficiente e prática.  | 2 |
+| 10 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência alternada para obter o resultado de forma eficiente e prática.  | 2 |
+| 11 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de quadrados perfeitos para obter o resultado de forma eficiente e prática.  | 3 |
+| 12 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de geométrica para obter o resultado de forma eficiente e prática.  | 3 |
+
 
 ---
+
+### 💻 Tecnologias <a id="tecnologias"></a>
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisualG 3.0
+
 
 ## 👩‍💻 Equipe
 
@@ -34,11 +60,6 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 <div>
 ---
 
-### 💻 Tecnologias <a id="tecnologias"></a>
 
--   **Versionador:** Github
--   **Ferramenta de gestão:** Jira
--   **Linguagem:** Portugol
--   **Plataforma:** VisualG 3.0
 
 
