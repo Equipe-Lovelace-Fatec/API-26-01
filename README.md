@@ -27,6 +27,6 @@ Desenvolver uma calculadora que desenvolva funções matemáticas avançadas, ut
 | Amanda Emiliano | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/amanda-emiliano-0822b2200/) |
 | Anderson Ilo | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/AndersonIlo) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/anderson-ilo-212b18182/) |
 | Vitória Souza | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/cs-vitoria) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-souza-2a9a45391/) |
-| Vitória Vieira Alves | Desenvolvedor | Link GIT | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
+| Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
 <div>
