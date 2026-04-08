@@ -13,9 +13,9 @@ Inicio
       escreval ("----------------")
       escreval ("  CALCULADORA")
       escreval ("----------------")
-      escreval ("1 - SequÃªncia de Cubos")
-      escreval ("2 - NÃºmeros Primos")
-      escreval ("3 - SequÃªncia Tribonacci")
+      escreval ("1 - Sequência de Cubos")
+      escreval ("2 - Números Primos")
+      escreval ("3 - Sequência Tribonacci")
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
@@ -24,22 +24,32 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("-------------------")
-            escreval ("SEQUÃŠNCIA DE CUBOS")
+            escreval ("SEQUÊNCIA DE CUBOS")
             escreval ("-------------------")
-            escreval ("Escolha o nÃºmero inteiro inicial:")
-            escreval ("(Entre -99999 e 99999)")
-            leia (inicial)
-            escreval ("Escolha o nÃºmero inteiro final:")
-            escreval ("(Entre -99999 e 99999)")
-            leia (final)
+            repita
+               escreval ("Escolha o número inteiro inicial:")
+               escreval ("(Entre -99999 e 99999)")
+               leia (inicial)
+               se (inicial > 99999) ou (inicial < -99999) entao
+                  escreval ("Escolha um número dentro do intervalo estipulado")
+               fimse
+            ate (inicial <= 99999) e (inicial >= -99999)
+            repita
+               escreval ("Escolha o número inteiro final:")
+               escreval ("(Entre -99999 e 99999)")
+               leia (final)
+               se (final < 99999) ou (final > -99999) entao
+                  escreval ("Escolha um número dentro do intervalo estipulado")
+               fimse
+            até (final >= -99999) e (final <= 99999)
             escreval ("------------------------------------------------------")
-            escreval ("A SequÃªncia de Cubos entre", inicial, " e", final, " Ã©:")
+            escreval ("A Sequência de Cubos entre", inicial, " e", final, " é:")
             para i de inicial ate final faca
-               resultado <- i * i * i
-               escreval (i, "Â³ = ", resultado)
+               resultado <- i ^ 3
+               escreval (i, "³ = ", resultado)
             fimpara
             escreval ("")
-            escreval ("Deseja calcular outra sequÃªncia de cubos? (s/n)")
+            escreval ("Deseja calcular outra sequência de cubos? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -49,9 +59,9 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval("--------------------")
-            escreval("SEQUÃŠNCIA DE PRIMOS")
+            escreval("SEQUÊNCIA DE PRIMOS")
             escreval("--------------------")
-            escreva("Quantos elementos terÃ¡ a sequÃªncia? ")
+            escreva("Quantos elementos terá a sequência? ")
             leia(sequencia)
 
             num <- 1
@@ -67,11 +77,11 @@ Inicio
 
                se (num > 1) e (d = 2)entao
                   contador <- contador + 1
-                  escreval (contador, "Â° nÃºmero primo:",num)
+                  escreval (contador, "° número primo:",num)
                fimse
                num <- num + 1
             fimenquanto
-            escreval ("Deseja calcular outro nÃºmero primo? (s/n)")
+            escreval ("Deseja calcular outro número primo? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -81,19 +91,19 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("--------------------")
-            escreval ("SEQUÃŠNCIA TRIBONACCI")
+            escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
-            Escreval("Quantos termos quer em sua sequÃªncia?")
+            Escreval("Quantos termos quer em sua sequência?")
             leia(n)
             termo[1] <- 0
             termo[2] <- 0
             termo[3] <- 1
             se n<1 entao
-            limpatela
+               limpatela
                Escreval("Escreva um valor que seja maior ou igual a 1!")
             senao
                se n>60 entao
-               limpatela
+                  limpatela
                   Escreval("Limite excedido. Escreva um valor que seja menor ou igual a 60!")
                senao
                   para i de 4 ate n faca
@@ -115,12 +125,12 @@ Inicio
          escreval ("triangular")
          escreval ("fatorial")
          escreval ("quadrados perfeitos")
-         escreval ("sequencia geomÃ©trica")
+         escreval ("sequencia geométrica")
          escreval ("sequencia alternada")
       fimse
 
       Se opcao = 0 entao
-         escreval ("VocÃª escolheu sair")
+         escreval ("Você escolheu sair")
       fimse
 
       se opcao <> 0 entao
