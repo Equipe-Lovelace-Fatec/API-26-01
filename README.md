@@ -63,11 +63,10 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 Para executar a calculadora, siga os passos abaixo:
 
 1.  Certifique-se de ter o **VisualG 3.0** instalado em seu computador.
-2.  Faça o download do arquivo da calculadora Cique aqui [Uploading CALCULADORALOVELACE.ALG…]
-](APP.ALG).
-3.  Abra o arquivo `app.alg` no VisualG.
+2.  Utilize o seguinte código para usar a calculadora [Acesse aqui](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/CalculadoraLovelace.ALG) |
+3.  Abra o arquivo no VisualG.
 4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisualG 3.0, para iniciar o programa.
-5.  Siga as instruções apresentadas no console para selecionar e utilizar as funções da calculadora.
+5.  Siga as instruções apresentadas no manual do usuário.
 
 ---
 
