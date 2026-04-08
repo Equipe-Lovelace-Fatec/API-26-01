@@ -70,6 +70,28 @@ Para executar a calculadora, siga os passos abaixo:
 
 ---
 
+----
+☑️ **Definition of Ready (DoR)** 
+
+ Não ter dependência de outra tarefa 
+ 
+ User Story detalhada e bem compreendida pela equipe com critérios de aceitação
+ 
+ Distribuir cada story ao seu respectivo desenvolvedor
+
+
+---- 
+
+☑️ **Definition of Done (DoD)**
+
+ Testado pelo desenvolvedor 
+ 
+ Testado por outro integrante além do desenvolvedor
+ 
+ Documentação do GitHub atualizada
+ 
+ Merge na main realizado
+
 
 ## 👩‍💻 Equipe
 
