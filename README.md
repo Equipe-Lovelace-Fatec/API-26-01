@@ -57,6 +57,20 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 -   **Linguagem:** Portugol
 -   **Plataforma:** VisualG 3.0
 
+  ------
+### ❓ Como executar, usar e testar o produto
+
+Para executar a calculadora, siga os passos abaixo:
+
+1.  Certifique-se de ter o **VisualG 3.0** instalado em seu computador.
+2.  Faça o download do arquivo da calculadora Cique aqui [Uploading CALCULADORALOVELACE.ALG…]
+](APP.ALG).
+3.  Abra o arquivo `app.alg` no VisualG.
+4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisualG 3.0, para iniciar o programa.
+5.  Siga as instruções apresentadas no console para selecionar e utilizar as funções da calculadora.
+
+---
+
 
 ## 👩‍💻 Equipe
 
