@@ -41,7 +41,7 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
-|  **SPRINT 1** | 16/03 - 05/04 |  |
+|  **SPRINT 1** | 16/03 - 05/04 | Sprints /Sprint 1.md |
 |  **SPRINT 2** | 13/04 - 03/05|  |
 |  **SPRINT 3** | 11/05 - 31/05 | |
 
