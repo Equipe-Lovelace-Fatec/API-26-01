@@ -1,4 +1,5 @@
 ## API-26-01
+**Calculadora de Sequências Lógias**
 
 <div align="center">
   <img width="337" height="305" alt="image" src="https://github.com/user-attachments/assets/d446b835-299c-4777-a2bf-c9d114403136" />
