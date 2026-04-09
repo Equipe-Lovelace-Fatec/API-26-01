@@ -1,7 +1,9 @@
-## API-26-01
-**Calculadora de Sequências Lógias**
 
 <div align="center">
+
+## API-26-01 - **Calculadora de Sequências Lógicas**
+
+  
   <img width="337" height="305" alt="image" src="https://github.com/user-attachments/assets/d446b835-299c-4777-a2bf-c9d114403136" />
  
   
@@ -12,13 +14,13 @@
 
 **Projeto Acadêmico | API 1° semestre 2026 | Fatec**
 
----
+----
 
 **🚀 Desafio**
 
-Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendido no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
+Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendidos no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
 
---- 
+----
 
 ## 📋 Backlog do Produto
 
@@ -40,37 +42,40 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
 
+<div align="center">
+
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
 |  **SPRINT 1** | 16/03 - 05/04 | [Ver Sprint 1](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint1.md) |
 |  **SPRINT 2** | 13/04 - 03/05 | [Ver Sprint 2](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint2.md) |
 |  **SPRINT 3** | 11/05 - 31/05 | |
 
+</div>
 
+----
 
----
-
-### 💻 Tecnologias <a id="tecnologias"></a>
+### 💻 Tecnologias
 
 -   **Versionador:** Github
 -   **Ferramenta de gestão:** Jira
 -   **Linguagem:** Portugol
--   **Plataforma:** VisualG 3.0
+-   **Plataforma:** VisuAlg 3.0
+-   **Botão:** [Shields.io](https://shields.io/)
 
-  ------
+----
+  
 ### ❓ Como executar, usar e testar o produto
 
 Para executar a calculadora, siga os passos abaixo:
 
-1.  Certifique-se de ter o **VisualG 3.0** instalado em seu computador.
+1.  Certifique-se de ter o **VisuAlg 3.0** instalado em seu computador.
 2.  Utilize o seguinte código para usar a calculadora [Acesse aqui](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/CalculadoraLovelace.ALG) 
 3.  Abra o arquivo no VisualG.
-4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisualG 3.0, para iniciar o programa.
+4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisuAlg 3.0, para iniciar o programa.
 5.  Siga as instruções apresentadas no manual do usuário.
 
----
-
 ----
+
 ☑️ **Definition of Ready (DoR)** 
 
  Não ter dependência de outra tarefa 
@@ -78,7 +83,6 @@ Para executar a calculadora, siga os passos abaixo:
  User Story detalhada e bem compreendida pela equipe com critérios de aceitação
  
  Distribuir cada story ao seu respectivo desenvolvedor
-
 
 ---- 
 
@@ -92,6 +96,20 @@ Para executar a calculadora, siga os passos abaixo:
  
  Merge na main realizado
 
+----
+
+**Manual de Instalação do VisuAlg 3.0**
+
+Passo a Passo de Instalação e Execução:
+
+1. Download: Baixe a versão 3.0 do VisuAlg, disponível no [SourceForge](https://sourceforge.net/projects/visualg30/).
+2. Descompactar: O arquivo baixado é compactado (.zip ou .rar). Utilize um descompactador (7-Zip ou WinRAR) para extrair o conteúdo.
+3. Localização: Extraia os arquivos; Você pode selecionar "Extrair aqui" para extrair na mesma pasta ou "Extrair arquivos" para escolher a pasta.
+4. Executar: Abra a pasta extraída e encontre o arquivo **VisuAlg30.exe**.
+5. Atalho: Clique com o botão direito sobre o **VisuAlg30.exe** e selecione "Criar atalho" > "Área de trabalho" para facilitar o acesso.
+6. Configuração Inicial: Ao abrir o programa, vá no menu "Manutenção" > "Configurações" para ajustes visuais.
+
+----
 
 ## 👩‍💻 Equipe
 
@@ -108,7 +126,7 @@ Para executar a calculadora, siga os passos abaixo:
 | Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
 <div>
----
+----
 
 
 
