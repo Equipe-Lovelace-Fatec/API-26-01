@@ -9,7 +9,8 @@
   
   <h2>Equipe Lovelace</h2>
 
-**Projeto Acadêmico | API 1° semestre 2026 | Fatec**
+**Projeto Acadêmico | API 1° semestre 2026 | Fatec** <br>
+**Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal**
   
 </div>
 
