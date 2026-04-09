@@ -8,11 +8,10 @@
  
   
   <h2>Equipe Lovelace</h2>
-</div>
-
-
 
 **Projeto Acadêmico | API 1° semestre 2026 | Fatec**
+  
+</div>
 
 ----
 
