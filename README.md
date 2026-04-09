@@ -25,7 +25,7 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 ## 📋 Backlog do Produto
 
 | Rank | Prioridade | User Story | Sprint | Status |
-|------|------------|------------|--------|--------|
+|:------:|:------------:|------------|:--------:|:--------:|
 | 1 | Alta | Como usuário da calculadora, quero visualizar um menu no programa para escolher qual calculo desejo realizar. | 1 | ✅ | 
 | 2 | Alta | Como usuário da calculadora, quero executar apenas um cálculo por vez para facilitar o uso.| 1 | ✅ |
 | 3 | Alta | Como usuário da calculadora, quero continuar executando cálculos até decidir encerrar o programa. | 1 | ✅ |
@@ -45,7 +45,7 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 <div align="center">
 
 | Sprint          |    Período    | Documentação                                     |
-| --------------- | :-----------: | ------------------------------------------------ |
+| :-------------: | :-----------: | :----------------------------------------------: |
 |  **SPRINT 1** | 16/03 - 05/04 | [Ver Sprint 1](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint1.md) |
 |  **SPRINT 2** | 13/04 - 03/05 | [Ver Sprint 2](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint2.md) |
 |  **SPRINT 3** | 11/05 - 31/05 | |
@@ -125,8 +125,7 @@ Passo a Passo de Instalação e Execução:
 | Vitória Souza | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/cs-vitoria) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-souza-2a9a45391/) |
 | Vitória Vieira Alves | Desenvolvedor | [![GitHub](https://img.shields.io/badge/GitHub-black?logo=GitHub)](https://github.com/Vitoria2304) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-rgb(10,102,194)?logo=linkedin)](https://www.linkedin.com/in/vit%C3%B3ria-vieira-alves-652256322/) |
 
-<div>
-----
+</div>
 
 
 
