@@ -2,10 +2,25 @@ Algoritmo "CALCULADORA"
 
 
 Var
-   opcao, calculo, inicial, final, num, d, i, sequencia, contador, n  : inteiro
+// VARIAVEIS NUMEROS PRIMOS
+   num, d, i, sequencia, contador: inteiro //VARIAVEL i para primos e tribonati e cubos sendo contador na tribonatti, em cubos é a variável contadora que controla o número de repetições
+   resto: real
+   //num: números que serão testados, d: divisores dos números, i: números que serão testados como divisores
+   //sequencia: quantidade de elementos que o usuário deseja, contador: acumula a quantidade de numeros primos encontrada
+   //resto: armazena o resto das operações de divisão
+
+   //VARIAVEIS TRIBONATTI
+   termo: vetor[1..60] de real
+   n: inteiro //quantos termos a sequencia terá
+   
+   //VARIAVEIS CUBOS
+  inicial : inteiro
+  final : inteiro
+  resultado : real
+// não é possível rodar com o resultado sendo inteiro por conta da potência
+
+   opcao, calculo : inteiro
    intervalo, repetir : caractere
-   resultado, resto : real
-   termo: vetor[1..1000] de real
 Inicio
 
    opcao <- -1
@@ -13,9 +28,9 @@ Inicio
       escreval ("----------------")
       escreval ("  CALCULADORA")
       escreval ("----------------")
-      escreval ("1 - Sequ�ncia de Cubos")
-      escreval ("2 - N�meros Primos")
-      escreval ("3 - Sequ�ncia Tribonacci")
+      escreval ("1 - Sequência de Cubos")
+      escreval ("2 - Números Primos")
+      escreval ("3 - Sequência Tribonacci")
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
@@ -24,32 +39,32 @@ Inicio
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("-------------------")
-            escreval ("SEQU�NCIA DE CUBOS")
+            escreval ("SEQUÊNCIA DE CUBOS")
             escreval ("-------------------")
             repita
-               escreval ("Escolha o n�mero inteiro inicial:")
+               escreval ("Escolha o número inteiro inicial:")
                escreval ("(Entre -99999 e 99999)")
                leia (inicial)
                se (inicial > 99999) ou (inicial < -99999) entao
-                  escreval ("Escolha um n�mero dentro do intervalo estipulado")
+                  escreval ("Escolha um número dentro do intervalo estipulado")
                fimse
             ate (inicial <= 99999) e (inicial >= -99999)
             repita
-               escreval ("Escolha o n�mero inteiro final:")
+               escreval ("Escolha o número inteiro final:")
                escreval ("(Entre -99999 e 99999)")
                leia (final)
                se (final < 99999) ou (final > -99999) entao
-                  escreval ("Escolha um n�mero dentro do intervalo estipulado")
+                  escreval ("Escolha um número dentro do intervalo estipulado")
                fimse
-            at� (final >= -99999) e (final <= 99999)
+            até (final >= -99999) e (final <= 99999)
             escreval ("------------------------------------------------------")
-            escreval ("A Sequ�ncia de Cubos entre", inicial, " e", final, " �:")
+            escreval ("A Sequência de Cubos entre", inicial, " e", final, " é:")
             para i de inicial ate final faca
                resultado <- i ^ 3
-               escreval (i, "� = ", resultado)
+               escreval (i, "³ = ", resultado)
             fimpara
             escreval ("")
-            escreval ("Deseja calcular outra sequ�ncia de cubos? (s/n)")
+            escreval ("Deseja calcular outra sequência de cubos? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -58,30 +73,37 @@ Inicio
       Se opcao = 2 entao
          repetir <- "s"
          enquanto repetir = "s" faca
+     escreval("--------------------")
+            escreval("SEQUÊNCIA DE NÚMEROS PRIMOS")
             escreval("--------------------")
-            escreval("SEQU�NCIA DE PRIMOS")
-            escreval("--------------------")
-            escreva("Quantos elementos ter� a sequ�ncia? ")
+            escreval("Quantos elementos terá a sequência? ")
+            escreval("(Escolha um valor entre 1 e 250)")
             leia(sequencia)
 
-            num <- 1
-            contador <- 0
-            enquanto (contador < sequencia) faca
-               d <- 0
-               para i de 1 ate num faca
-                  resto <- num % i
+            se sequencia > 250 entao
+               sequencia <- 250
+               escreval("Você escolheu um valor maior do que o permitido, a sequência terá 250 elementos e levará cerca de 3 minutos para finalizar.")
+            fimse
+
+            num <- 1 //num são os números inteiros que seão testados para serem classificados comoo primos ou não
+            contador <- 0  //contará quantos números primos são encontrados
+
+            enquanto (contador < sequencia) faca  //repete até que a quantidade de elementos desejada pelo usuário seja encontrada
+               d <- 0 //divisores (é contabilizado quando o resultado de uma divisão é exata)
+               para i de 1 ate num faca // i faz com que os números sejam divididos por todos os valores até ele mesmo(ex.: 5 será divivido por 1, 2, 3, 4 e 5)
+                  resto <- num % i // armazena o resultado do resto da divisão
                   se resto = 0 entao
-                     d <- d + 1
+                     d <- d + 1  // se resto for 0, então um divisor foi encontrado e é contabilizado
                   fimse
                fimpara
 
-               se (num > 1) e (d = 2)entao
-                  contador <- contador + 1
-                  escreval (contador, "� n�mero primo:",num)
+               se (num > 1) e (d = 2)entao  //condição para um número ser primo
+                  contador <- contador + 1 // contabiliza como mais um primo encontrado para a continuação da sequência
+                  escreval (contador, "° número primo:",num) //exibe resultado na tela
                fimse
-               num <- num + 1
+               num <- num + 1 //faz o mesmo processo com o próximo número inteiro
             fimenquanto
-            escreval ("Deseja calcular outro n�mero primo? (s/n)")
+            escreval ("Deseja calcular outro número primo? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
@@ -90,27 +112,25 @@ Inicio
       Se opcao = 3 entao
          repetir <- "s"
          enquanto repetir = "s" faca
+         escreval ("--------------------")
+            escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
-            escreval ("SEQU�NCIA TRIBONACCI")
-            escreval ("--------------------")
-            Escreval("Quantos termos quer em sua sequ�ncia?")
+            Escreval("Quantos termos quer em sua sequência?")
             leia(n)
-            termo[1] <- 0
+            termo[1] <- 0 // condições iniciais fixas
             termo[2] <- 0
             termo[3] <- 1
             se n<1 entao
-               limpatela
-               Escreval("Escreva um valor que seja maior ou igual a 1!")
+               Escreval("Escreva um valor que seja maior ou igual a 1!")// para calcular a sequência
             senao
                se n>60 entao
-                  limpatela
-                  Escreval("Limite excedido. Escreva um valor que seja menor ou igual a 60!")
+                  Escreval("Limite excedido. Escreva um valor que seja menor ou igual a 60!")// limite antes de virar notação
                senao
-                  para i de 4 ate n faca
-                     termo[i] <- termo[i-1] + termo[i-2] + termo[i-3]
-                  fimpara
-                  para i de 1 ate n faca
-                     escreval(termo[i], " ")
+                  para i de 4 ate n faca  // calcula a partir do 4 termo, ja que os 3 primeiros termos são fixos
+                     termo[i] <- termo[i-1] + termo[i-2] + termo[i-3] //formula tribonacci
+                  fimpara // separa o Para de calculo do Para de impressão
+                  para i de 1 ate n faca  //para aparecer todos os termos, inclusive t1, t2 e t3
+                     escreval(termo[i], " ")  // impressão da sequência
                   fimpara
                fimse
             fimse
@@ -120,17 +140,8 @@ Inicio
          fimenquanto
       fimse
 
-      Se opcao = 4 entao
-         escreval ("fibonatti")
-         escreval ("triangular")
-         escreval ("fatorial")
-         escreval ("quadrados perfeitos")
-         escreval ("sequencia geom�trica")
-         escreval ("sequencia alternada")
-      fimse
-
       Se opcao = 0 entao
-         escreval ("Voc� escolheu sair")
+         escreval ("Você escolheu sair")
       fimse
 
       se opcao <> 0 entao
