@@ -19,6 +19,10 @@ Var
   resultado : real
 // não é possível rodar com o resultado sendo inteiro por conta da potência
 
+//VARIAVEIS TRIANGULARES
+   posicao: inteiro
+   resposta: real
+
    opcao, calculo : inteiro
    intervalo, repetir : caractere
 Inicio
@@ -139,6 +143,27 @@ Inicio
             limpatela
          fimenquanto
       fimse
+
+Se opcao = 4 entao
+         repetir <- "s"
+         enquanto repetir = "s" faca
+            escreval ("------------------------------")
+            escreval ("SEQUÊNCIA NÚMEROS TRIANGULARES")
+            escreval ("------------------------------")
+            escreval ("Qual posição você deseja calcular? (entre 1 a 46340)")
+            leia (posicao)
+            se (posicao >=1) e (posicao <= 46340) entao
+               resposta <- posicao*(posicao+1)/2
+               escreval ("O número triangular na posição", posicao, " é:", resposta)
+               escreval ("Deseja calcular outra posição? (s/n)")
+               leia (repetir)
+               limpatela
+            senao
+               escreval ("Você escolheu um número maior do que o permitido")
+            fimse
+         fimenquanto
+      fimse
+
 
       Se opcao = 0 entao
          escreval ("Você escolheu sair")
