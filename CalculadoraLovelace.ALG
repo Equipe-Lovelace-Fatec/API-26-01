@@ -35,6 +35,7 @@ Inicio
       escreval ("1 - Sequência de Cubos")
       escreval ("2 - Números Primos")
       escreval ("3 - Sequência Tribonacci")
+      escreval ("4 - Sequência de números Triangulares")
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
