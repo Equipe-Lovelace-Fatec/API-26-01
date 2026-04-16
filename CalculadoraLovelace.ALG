@@ -33,9 +33,9 @@ Inicio
       escreval ("  CALCULADORA")
       escreval ("----------------")
       escreval ("1 - Sequência de Cubos")
-      escreval ("2 - Números Primos")
+      escreval ("2 - Sequência de Números Primos")
       escreval ("3 - Sequência Tribonacci")
-      escreval ("4 - Sequência de números Triangulares")
+      escreval ("4 - Sequência de Números Triangulares")
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
@@ -78,36 +78,39 @@ Inicio
       Se opcao = 2 entao
          repetir <- "s"
          enquanto repetir = "s" faca
-     escreval("--------------------")
+            escreval("---------------------------")
             escreval("SEQUÊNCIA DE NÚMEROS PRIMOS")
-            escreval("--------------------")
+            escreval("---------------------------")
+            escreval("")
             escreval("Quantos elementos terá a sequência? ")
-            escreval("(Escolha um valor entre 1 e 250)")
+            escreva("(Escolha um valor entre 1 e 250) ")
             leia(sequencia)
 
-            se sequencia > 250 entao
-               sequencia <- 250
-               escreval("Você escolheu um valor maior do que o permitido, a sequência terá 250 elementos e levará cerca de 3 minutos para finalizar.")
+            se sequencia < 250 entao
+
+               num <- 1 //números inteiros que seão testados para serem classificados comoo primos ou não
+               contador <- 0
+
+               enquanto (contador < sequencia) faca  //repete até que a quantidade de elementos desejada pelo usuário seja encontrada
+                  d <- 0
+                  para i de 1 ate num faca //i faz com que os números sejam divididos por todos os valores até ele mesmo(ex.: 5 será divivido por 1, 2, 3, 4 e 5)
+                     resto <- num % i
+                     se resto = 0 entao
+                        d <- d + 1  // se resto for 0, então um divisor foi encontrado e é contabilizado
+                     fimse
+                  fimpara
+
+                  se (num > 1) e (d = 2)entao  //condição para um número ser primo
+                     contador <- contador + 1 // contabiliza como mais um primo encontrado para a continuação da sequência
+                     escreval (contador, "° número primo:",num)
+                  fimse
+                  num <- num + 1 //faz o mesmo processo com o próximo número inteiro
+               fimenquanto
+            senao
+               escreval("")
+               escreval("Você escolheu um valor maior do que o permitido.")
             fimse
 
-            num <- 1 //num são os números inteiros que seão testados para serem classificados comoo primos ou não
-            contador <- 0  //contará quantos números primos são encontrados
-
-            enquanto (contador < sequencia) faca  //repete até que a quantidade de elementos desejada pelo usuário seja encontrada
-               d <- 0 //divisores (é contabilizado quando o resultado de uma divisão é exata)
-               para i de 1 ate num faca // i faz com que os números sejam divididos por todos os valores até ele mesmo(ex.: 5 será divivido por 1, 2, 3, 4 e 5)
-                  resto <- num % i // armazena o resultado do resto da divisão
-                  se resto = 0 entao
-                     d <- d + 1  // se resto for 0, então um divisor foi encontrado e é contabilizado
-                  fimse
-               fimpara
-
-               se (num > 1) e (d = 2)entao  //condição para um número ser primo
-                  contador <- contador + 1 // contabiliza como mais um primo encontrado para a continuação da sequência
-                  escreval (contador, "° número primo:",num) //exibe resultado na tela
-               fimse
-               num <- num + 1 //faz o mesmo processo com o próximo número inteiro
-            fimenquanto
             escreval ("Deseja calcular outro número primo? (s/n)")
             leia (repetir)
             limpatela
