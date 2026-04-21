@@ -10,8 +10,7 @@ Var
    //resto: armazena o resto das operações de divisão
 
    //VARIAVEIS TRIBONATTI
-   termo: vetor[1..60] de real
-   n: inteiro //quantos termos a sequencia terá
+   t1, t2, t3, consequente, n: inteiro
    
    //VARIAVEIS CUBOS
   inicial : inteiro
@@ -123,24 +122,32 @@ Inicio
          escreval ("--------------------")
             escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
-            Escreval("Quantos termos quer em sua sequência?")
+            t1 <- 0  // condições fixas
+            t2 <- 0
+            t3 <- 1
+            escreval("Quantos termos quer em sua sequência?")
+            escreval()
+            escreva("Número de termos = ")
             leia(n)
-            termo[1] <- 0 // condições iniciais fixas
-            termo[2] <- 0
-            termo[3] <- 1
-            se n<1 entao
-               Escreval("Escreva um valor que seja maior ou igual a 1!")// para calcular a sequência
-            senao
-               se n>60 entao
-                  Escreval("Limite excedido. Escreva um valor que seja menor ou igual a 60!")// limite antes de virar notação
-               senao
-                  para i de 4 ate n faca  // calcula a partir do 4 termo, ja que os 3 primeiros termos são fixos
-                     termo[i] <- termo[i-1] + termo[i-2] + termo[i-3] //formula tribonacci
-                  fimpara // separa o Para de calculo do Para de impressão
-                  para i de 1 ate n faca  //para aparecer todos os termos, inclusive t1, t2 e t3
-                     escreval(termo[i], " ")  // impressão da sequência
-                  fimpara
+            se (n <= 0) ou (n > 39) entao  // limitação
+               escreval("Valor invalido! Escreva um valor entre 1 e 39!")
+            senao   // tratamento dos 3 primeiros termos para não entrarem no laço "para"
+               se n >= 1 entao
+                  escreval("Termo 1º: ", t1)  // impressão dos termos já pre definidos
                fimse
+               se n >= 2 entao
+                  escreval("Termo 2º: ", t2)
+               fimse
+               se n >= 3 entao
+                  escreval("Termo 3º: ", t3)
+               fimse
+               para i de 4 ate n faca // calculo a partir do 4º termo. 3 primeios já definidos
+                  consequente <- t1 + t2 + t3
+                  escreval("Termo", i, "º: ", consequente) // impressão termo calculado
+                  t1 <- t2
+                  t2 <- t3
+                  t3 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
+               fimpara
             fimse
             escreval ("Deseja calcular outro Tribonacci? (s/n)")
             leia (repetir)
