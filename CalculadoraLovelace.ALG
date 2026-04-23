@@ -22,6 +22,9 @@ Var
    posicao: inteiro
    resposta: real
 
+//VARIAVEIS FIBONATTI
+   t1, t2, consequente, n: inteiro
+
    opcao, calculo : inteiro
    intervalo, repetir : caractere
 Inicio
@@ -35,6 +38,8 @@ Inicio
       escreval ("2 - Sequência de Números Primos")
       escreval ("3 - Sequência Tribonacci")
       escreval ("4 - Sequência de Números Triangulares")
+      escreval ("5 - Sequência Fibonacci")
+
       escreval ("0 - Sair")
       leia (opcao)
       limpatela
@@ -174,7 +179,43 @@ Se opcao = 4 entao
             fimse
          fimenquanto
       fimse
+Se opcao = 5 entao
+         repetir <- "s"
+         enquanto repetir = "s" faca
+         escreval ("--------------------")
+         escreval ("SEQUÊNCIA FIBONACCI")
+         escreval ("--------------------")
+         t1 <- 0 // condições fixas
+         t2 <- 1
 
+         escreval("Quantos termos quer em sua sequência?")
+         escreval()
+         escreva("Número de termos = ")
+         leia(n)
+         se (n <= 0) ou (n > 47) entao // limitação
+            escreval("Valor invalido! Escreva um valor entre 1 e 47!")
+         senao // tratamento dos 2 primeiros termos para não entrarem no laço "para"
+            se n >= 1 entao
+               escreval("Termo 1º:", t1) // impressão dos termos já pre definidos
+            fimse
+
+            se n >= 2 entao
+               escreval("Termo 2º:", t2)
+            fimse
+
+            para i de 3 ate n faca // calculo a partir do 3º termo. 2 primeios já definidos
+               consequente <- t1 + t2
+               escreval("Termo", i, "º:", consequente) // impressão termo calculado
+
+               t1 <- t2
+               t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
+            fimpara
+         fimse
+            escreval ("Deseja calcular outro Fibonacci? (s/n)")
+            leia (repetir)
+            limpatela
+         fimenquanto
+      fimse
 
       Se opcao = 0 entao
          escreval ("Você escolheu sair")
