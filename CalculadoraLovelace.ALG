@@ -2,28 +2,34 @@ Algoritmo "CALCULADORA"
 
 
 Var
-// VARIAVEIS NUMEROS PRIMOS
-   num, d, i, sequencia, contador: inteiro //VARIAVEL i para primos e tribonati e cubos sendo contador na tribonatti, em cubos é a variável contadora que controla o número de repetições
+   // VARIAVEIS NUMEROS PRIMOS
+   num, d, i, sequencia, contador: inteiro //VARIAVEL i para primos e tribonacci e cubos sendo contador na tribonacci, em cubos é a variável contadora que controla o número de repetições
    resto: real
    //num: números que serão testados, d: divisores dos números, i: números que serão testados como divisores
    //sequencia: quantidade de elementos que o usuário deseja, contador: acumula a quantidade de numeros primos encontrada
    //resto: armazena o resto das operações de divisão
+   //variável sequencia para primos e alternada
 
-   //VARIAVEIS TRIBONATTI
-   t1, t2, t3, consequente, n: inteiro
-   
+   //VARIAVEIS TRIBONACCI
+   t1, t2, t3, consequente, n: inteiro  //variável n para tribonacci e para sequência alternada
+
    //VARIAVEIS CUBOS
-  inicial : inteiro
-  final : inteiro
-  resultado : real
-// não é possível rodar com o resultado sendo inteiro por conta da potência
+   inicial : inteiro
+   final : inteiro
+   resultado : real
+   // não é possível rodar com o resultado sendo inteiro por conta da potência
 
-//VARIAVEIS TRIANGULARES
+   //VARIAVEIS TRIANGULARES
    posicao: inteiro
    resposta: real
 
    opcao, calculo : inteiro
    intervalo, repetir : caractere
+
+   //VARIÁVEIS ALTERNADA
+   ordem: inteiro
+   sinal: caractere
+   termo: real
 Inicio
 
    opcao <- -1
@@ -36,6 +42,8 @@ Inicio
       escreval ("3 - Sequência Tribonacci")
       escreval ("4 - Sequência de Números Triangulares")
       escreval ("5 - Sequência Fibonacci")
+      escreval ("6 - Sequência Alternada")
+
 
       escreval ("0 - Sair")
       leia (opcao)
@@ -121,7 +129,7 @@ Inicio
       Se opcao = 3 entao
          repetir <- "s"
          enquanto repetir = "s" faca
-         escreval ("--------------------")
+            escreval ("--------------------")
             escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
             t1 <- 0  // condições fixas
@@ -157,7 +165,7 @@ Inicio
          fimenquanto
       fimse
 
-Se opcao = 4 entao
+      Se opcao = 4 entao
          repetir <- "s"
          enquanto repetir = "s" faca
             escreval ("------------------------------")
@@ -176,56 +184,115 @@ Se opcao = 4 entao
             fimse
          fimenquanto
       fimse
-Se opcao = 5 entao
+      Se opcao = 5 entao
          repetir <- "s"
          enquanto repetir = "s" faca
-         escreval ("--------------------")
-         escreval ("SEQUÊNCIA FIBONACCI")
-         escreval ("--------------------")
-         t1 <- 0 // condições fixas
-         t2 <- 1
+            escreval ("--------------------")
+            escreval ("SEQUÊNCIA FIBONACCI")
+            escreval ("--------------------")
+            t1 <- 0 // condições fixas
+            t2 <- 1
 
-         escreval("Quantos termos quer em sua sequência?")
-         escreval()
-         escreva("Número de termos = ")
-         leia(n)
-         se (n <= 0) ou (n > 47) entao // limitação
-            escreval("Valor invalido! Escreva um valor entre 1 e 47!")
-         senao // tratamento dos 2 primeiros termos para não entrarem no laço "para"
-            se n >= 1 entao
-               escreval("Termo 1º:", t1) // impressão dos termos já pre definidos
+            escreval("Quantos termos quer em sua sequência?")
+            escreval()
+            escreva("Número de termos = ")
+            leia(n)
+            se (n <= 0) ou (n > 47) entao // limitação
+               escreval("Valor invalido! Escreva um valor entre 1 e 47!")
+            senao // tratamento dos 2 primeiros termos para não entrarem no laço "para"
+               se n >= 1 entao
+                  escreval("Termo 1º:", t1) // impressão dos termos já pre definidos
+               fimse
+
+               se n >= 2 entao
+                  escreval("Termo 2º:", t2)
+               fimse
+
+               para i de 3 ate n faca // calculo a partir do 3º termo. 2 primeios já definidos
+                  consequente <- t1 + t2
+                  escreval("Termo", i, "º:", consequente) // impressão termo calculado
+
+                  t1 <- t2
+                  t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
+               fimpara
             fimse
-
-            se n >= 2 entao
-               escreval("Termo 2º:", t2)
-            fimse
-
-            para i de 3 ate n faca // calculo a partir do 3º termo. 2 primeios já definidos
-               consequente <- t1 + t2
-               escreval("Termo", i, "º:", consequente) // impressão termo calculado
-
-               t1 <- t2
-               t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
-            fimpara
-         fimse
             escreval ("Deseja calcular outro Fibonacci? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
       fimse
 
-      Se opcao = 0 entao
-         escreval ("Você escolheu sair")
-      fimse
-
-      se opcao <> 0 entao
+      se opcao = 6 entao
+      repetir <- "s"
+         enquanto repetir = "s" faca
+         escreval("-------------------")
+         escreval("SEQUÊNCIA ALTERNADA")
+         escreval("-------------------")
          escreval("")
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
+         escreva("Quantos termos terá a sequência? ")
+         leia(sequencia)
+         escreval("")
+         se sequencia <= 0 entao
+            escreva ("Apenas valores maiores que 0 são válidos.")//tratamento de erro
+         senao
 
-   fimenquanto
+            escreval("O primeiro termo da sequência será positivo ou negativo?")
+            escreva("(Digite '+' ou '-') ")
+            leia(sinal)
+            se (sinal = "+") ou (sinal = "-") entao
+               escreval("")
+
+               escreva("Qual será a ordem de grandeza da sequência? ")
+               leia(ordem)
+               escreval("")
+
+               se sinal = "+" entao //para primeiro termo positivo
+                  n <- 1
+                  enquanto (n < sequencia) faca
+                     para n de 1 ate sequencia faca
+                        termo <- ((-1) ^ (n+1)) * (n^ordem) //cálculo
+                        escreval(n,"° termo:",termo)
+                     fimpara
+                     n <- n + 1 //para calcular próximo termo
+                  fimenquanto
+
+               senao
+                  se sinal = "-" entao //para primeiro termo negativo
+                     n <- 1
+                     enquanto (n < sequencia) faca
+                        para n de 1 ate sequencia faca
+                           termo <- ((-1) ^ n) * (n^ordem) //cálculo
+                           escreval(n,"° termo:",termo)
+                        fimpara
+                        n <- n + 1 //para calcular próximo termo
+                     fimenquanto
+                  fimse
+               fimse
+            senao
+               escreva("Apenas '+' ou '-' são respostas válidas.") //tratamento de erro
+            fimse
+         fimse
+         
+         escreval ("")
+         escreval ("Deseja calcular outra sequência alternada? (s/n)")
+         leia (repetir)
+         limpatela
+      fimenquanto
+   fimse
+
+
+   Se opcao = 0 entao
+      escreval ("Você escolheu sair")
+   fimse
+
+   se opcao <> 0 entao
+      escreval("")
+      escreval("Pressione ENTER para voltar ao menu...")
+      leia(intervalo)
+      limpatela
+   fimse
+
+fimenquanto
 
 
 Fimalgoritmo
