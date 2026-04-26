@@ -22,9 +22,6 @@ Var
    posicao: inteiro
    resposta: real
 
-//VARIAVEIS FIBONATTI
-   t1, t2, consequente, n: inteiro
-
    opcao, calculo : inteiro
    intervalo, repetir : caractere
 Inicio
