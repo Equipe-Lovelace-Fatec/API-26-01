@@ -48,7 +48,7 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 | :-------------: | :-----------: | :----------------------------------------------: |
 |  **SPRINT 1** | 16/03 - 05/04 | [Ver Sprint 1](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint1.md) |
 |  **SPRINT 2** | 13/04 - 03/05 | [Ver Sprint 2](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Sprints/Sprint2.md) |
-|  **SPRINT 3** | 11/05 - 31/05 | |
+|  **SPRINT 3** | 11/05 - 31/05 | [Ver Sprint 3](Sprints/Sprint3.md)
 
 </div>
 
