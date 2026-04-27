@@ -180,7 +180,7 @@ Inicio
                leia (repetir)
                limpatela
             senao
-               escreval ("Você escolheu um número maior do que o permitido")
+               escreval ("Você escolheu um número fora do período permitido")
             fimse
          fimenquanto
       fimse
@@ -272,7 +272,7 @@ Inicio
                escreva("Apenas '+' ou '-' são respostas válidas.") //tratamento de erro
             fimse
          fimse
-         
+
          escreval ("")
          escreval ("Deseja calcular outra sequência alternada? (s/n)")
          leia (repetir)
