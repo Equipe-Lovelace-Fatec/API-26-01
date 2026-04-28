@@ -19,7 +19,6 @@ Desenvolver uma calculadora que realize os seguintes cálculos: sequência de qu
 -   **Ferramenta de gestão:** Jira
 -   **Linguagem:** Portugol
 -   **Plataforma:** VisuAlg 3.0
--   **Botão:** [Shields.io](https://shields.io/)
 ----
 ☑️ **Definition of Ready (DoR)** 
 
