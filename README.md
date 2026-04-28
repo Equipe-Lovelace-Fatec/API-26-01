@@ -18,7 +18,7 @@
 
 **🚀 Desafio**
 
-vitoria - Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendidos no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
+Desenvolver uma calculadora que realize funções matemáticas avançadas, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, aprendidos no curso de Banco de Dados do 1° semestre, facilitando a realização dos cálculos de forma eficiente.
 
 ----
 
