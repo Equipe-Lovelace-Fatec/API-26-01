@@ -1,4 +1,4 @@
-🚀 Desafio da sprint 2
+**🚀 Desafio da sprint 2**
 
 Calculadora que realize os seguintes cáculos: sequência de fibonacci, número triangular, fatorial e alternada.
 ## 📋 Sprint 2
