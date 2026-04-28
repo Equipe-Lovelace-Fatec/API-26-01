@@ -30,6 +30,10 @@ Var
    ordem: inteiro
    sinal: caractere
    termo: real
+
+   //VARIÁVEIS FATORIAL
+   nume, indice: inteiro
+   fatorial: inteiro
 Inicio
 
    opcao <- -1
@@ -279,6 +283,43 @@ Inicio
          limpatela
       fimenquanto
    fimse
+
+   se opcao = 7 entao
+         repetir <- "s"
+         enquanto repetir = "s" faca
+            // Seção de Comandos, procedimento, funções, operadores, etc...
+            escreval (" ====== SEQUÊNCIA DE FATORIAL ====== ")
+            escreva ("Escolha um número (entre 0 e 12): ")
+            leia(nume)
+            //Verifica se o número é valido
+            se (nume < 0) ou (nume > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
+               escreval("Número inválido!!!")
+            senao
+               fatorial <- 1 //A base do fatorial é o 1
+
+               escreva(nume, "!") //mostra a conta, nao apenas o resultado
+
+
+               //loop para calcular o fatorial
+               para indice de nume ate 1 passo -1 faca
+                  escreva(indice) //mostra o numero atual
+
+                  se indice > 1 entao
+                     escreva (" x")
+                  fimse
+
+                  fatorial <- fatorial * indice
+               fimpara
+
+               //resultado final
+               escreval(" =", fatorial)
+            fimse
+
+            escreval ("Deseja calcular outro fatorial? (s/n)")
+            leia (repetir)
+            limpatela
+         fimenquanto
+      fimse
 
 
    Se opcao = 0 entao
