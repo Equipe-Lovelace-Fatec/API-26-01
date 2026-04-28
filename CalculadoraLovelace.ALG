@@ -47,7 +47,7 @@ Inicio
       escreval ("4 - Sequência de Números Triangulares")
       escreval ("5 - Sequência Fibonacci")
       escreval ("6 - Sequência Alternada")
-
+      escreval ("7 - Sequência de Fatorial")
 
       escreval ("0 - Sair")
       leia (opcao)
