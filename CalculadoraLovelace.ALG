@@ -136,25 +136,20 @@ Inicio
             escreval ("--------------------")
             escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
-            t1 <- 0  // condições fixas
-            t2 <- 0
-            t3 <- 1
             escreval("Quantos termos quer em sua sequência?")
             escreval()
             escreva("Número de termos = ")
             leia(n)
-            se (n <= 0) ou (n > 39) entao  // limitação
-               escreval("Valor invalido! Escreva um valor entre 1 e 39!")
-            senao   // tratamento dos 3 primeiros termos para não entrarem no laço "para"
-               se n >= 1 entao
-                  escreval("Termo 1º: ", t1)  // impressão dos termos já pre definidos
-               fimse
-               se n >= 2 entao
-                  escreval("Termo 2º: ", t2)
-               fimse
-               se n >= 3 entao
-                  escreval("Termo 3º: ", t3)
-               fimse
+            se (n <= 3) ou (n > 39) entao  // limitação
+               escreval("Valor invalido! Escreva um valor entre 4 e 39!")
+            senao
+               t1 <- 0  // condições fixas
+               t2 <- 0
+               t3 <- 1
+               escreval("Termo 1º: ",t1)
+               escreval("Termo 2º: ",t2)
+               escreval("Termo 3º: ",t3)
+
                para i de 4 ate n faca // calculo a partir do 4º termo. 3 primeios já definidos
                   consequente <- t1 + t2 + t3
                   escreval("Termo", i, "º: ", consequente) // impressão termo calculado
@@ -162,7 +157,7 @@ Inicio
                   t2 <- t3
                   t3 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
                fimpara
-            fimse
+            fimse   
             escreval ("Deseja calcular outro Tribonacci? (s/n)")
             leia (repetir)
             limpatela
@@ -194,28 +189,20 @@ Inicio
             escreval ("--------------------")
             escreval ("SEQUÊNCIA FIBONACCI")
             escreval ("--------------------")
-            t1 <- 0 // condições fixas
-            t2 <- 1
-
             escreval("Quantos termos quer em sua sequência?")
             escreval()
             escreva("Número de termos = ")
             leia(n)
-            se (n <= 0) ou (n > 47) entao // limitação
-               escreval("Valor invalido! Escreva um valor entre 1 e 47!")
+            se (n <= 2) ou (n > 47) entao // limitação
+               escreval("Valor invalido! Escreva um valor entre 3 e 47!")
             senao // tratamento dos 2 primeiros termos para não entrarem no laço "para"
-               se n >= 1 entao
-                  escreval("Termo 1º:", t1) // impressão dos termos já pre definidos
-               fimse
-
-               se n >= 2 entao
-                  escreval("Termo 2º:", t2)
-               fimse
-
+               t1 <- 0  // condições fixas
+               t2 <- 1
+               escreval("Termo 1º:",t1)
+               escreval("Termo 2º:",t2)
                para i de 3 ate n faca // calculo a partir do 3º termo. 2 primeios já definidos
                   consequente <- t1 + t2
                   escreval("Termo", i, "º:", consequente) // impressão termo calculado
-
                   t1 <- t2
                   t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
                fimpara
