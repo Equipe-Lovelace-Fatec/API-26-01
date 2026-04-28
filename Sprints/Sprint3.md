@@ -12,25 +12,31 @@ Desenvolver uma calculadora que realize os seguintes cálculos: sequência de qu
 | 12 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência geométrica para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
 
 ----
+
+### 💻 Tecnologias
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisuAlg 3.0
+-   **Botão:** [Shields.io](https://shields.io/)
+----
 ☑️ **Definition of Ready (DoR)** 
 
- Não ter dependência de outra tarefa 
+-   Não ter dependência de outra tarefa 
  
- User Story detalhada e bem compreendida pela equipe com critérios de aceitação
+-   User Story detalhada e bem compreendida pela equipe com critérios de aceitação
  
- Distribuir cada story ao seu respectivo desenvolvedor
-
+-   Distribuir cada story ao seu respectivo desenvolvedor
 
 ---- 
 
 ☑️ **Definition of Done (DoD)**
 
- Testado pelo desenvolvedor 
+-   Testado pelo desenvolvedor 
  
- Testado por outro integrante além do desenvolvedor
+-   Testado por outro integrante além do desenvolvedor
  
- Documentação do GitHub atualizada
+-   Documentação do GitHub atualizada
  
- Merge na main realizado
-
- Revisado pelo P.O.
+-   Merge na main realizado
