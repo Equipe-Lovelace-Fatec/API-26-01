@@ -78,27 +78,27 @@ Para executar a calculadora, siga os passos abaixo:
 
 ☑️ **Definition of Ready (DoR)** 
 
- Não ter dependência de outra tarefa 
+-   Não ter dependência de outra tarefa 
  
- User Story detalhada e bem compreendida pela equipe com critérios de aceitação
+-   User Story detalhada e bem compreendida pela equipe com critérios de aceitação
  
- Distribuir cada story ao seu respectivo desenvolvedor
+-   Distribuir cada story ao seu respectivo desenvolvedor
 
 ---- 
 
 ☑️ **Definition of Done (DoD)**
 
- Testado pelo desenvolvedor 
+-   Testado pelo desenvolvedor 
  
- Testado por outro integrante além do desenvolvedor
+-   Testado por outro integrante além do desenvolvedor
  
- Documentação do GitHub atualizada
+-   Documentação do GitHub atualizada
  
- Merge na main realizado
+-   Merge na main realizado
 
 ----
 
-**Manual de Instalação do VisuAlg 3.0**
+**📄 Manual de Instalação do VisuAlg 3.0**
 
 Para acessar o passo a Passo de Instalação e Execução [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20de%20Instalação%20VisuAlg.md)
 
