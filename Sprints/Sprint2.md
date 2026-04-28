@@ -11,6 +11,15 @@ Calculadora que realize os seguintes cáculos: sequência de fibonacci, número 
 | 10 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência alternada para obter o resultado de forma eficiente e prática.  | 2 | ✅ |
 
 ----
+
+### 💻 Tecnologias
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisuAlg 3.0
+
+----
 ☑️ **Definition of Ready (DoR)** 
 
  Não ter dependência de outra tarefa 
@@ -31,5 +40,3 @@ Calculadora que realize os seguintes cáculos: sequência de fibonacci, número 
  Documentação do GitHub atualizada
  
  Merge na main realizado
-
- Revisado pelo P.O.
