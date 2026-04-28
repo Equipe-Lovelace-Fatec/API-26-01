@@ -15,25 +15,33 @@ Calculadora que realize os seguintes cáculos: sequência de cubos, números pri
 | 4 | Alta | Como usuário da calculadora, quero ter uma função que calcule a sequência de de cubos para obter o resultado de forma eficiente e prática. | 1 | ✅ |
 | 5 | Alta | Como usuário da calculadora, quero ter uma função que liste a sequência de números primos para obter o resultado de forma eficiente e prática. | 1 | ✅ |
 | 6 | Alta| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de tribonacci para obter o resultado de forma eficiente e prática. | 1 | ✅ |
+----
+
+### 💻 Tecnologias
+
+-   **Versionador:** Github
+-   **Ferramenta de gestão:** Jira
+-   **Linguagem:** Portugol
+-   **Plataforma:** VisuAlg 3.0
 
 ----
 ☑️ **Definition of Ready (DoR)** 
 
- Não ter dependência de outra tarefa 
+-   Não ter dependência de outra tarefa 
  
- User Story detalhada e bem compreendida pela equipe com critérios de aceitação
+-   User Story detalhada e bem compreendida pela equipe com critérios de aceitação
  
- Distribuir cada story ao seu respectivo desenvolvedor
+-   Distribuir cada story ao seu respectivo desenvolvedor
 
 
 ---- 
 
 ☑️ **Definition of Done (DoD)**
 
- Testado pelo desenvolvedor 
+-   Testado pelo desenvolvedor 
  
- Testado por outro integrante além do desenvolvedor
+-   Testado por outro integrante além do desenvolvedor
  
- Documentação do GitHub atualizada
+-   Documentação do GitHub atualizada
  
- Merge na main realizado
+-   Merge na main realizado
