@@ -220,24 +220,25 @@ Inicio
          escreval("SEQUÊNCIA ALTERNADA")
          escreval("-------------------")
          escreval("")
+
          escreva("Quantos termos terá a sequência? ")
          leia(sequencia)
          escreval("")
-         se sequencia <= 0 entao
-            escreva ("Apenas valores maiores que 0 são válidos.")//tratamento de erro
-         senao
 
-            escreval("O primeiro termo da sequência será positivo ou negativo?")
-            escreva("(Digite '+' ou '-') ")
-            leia(sinal)
-            se (sinal = "+") ou (sinal = "-") entao
-               escreval("")
+      se sequencia > 0 entao
+         escreval("O primeiro termo da sequência será positivo ou negativo?")
+         escreva("(Digite '+' ou '-') ")
+         leia(sinal)
 
-               escreva("Qual será a ordem de grandeza da sequência? ")
-               leia(ordem)
-               escreval("")
+         se (sinal = "+") ou (sinal = "-") entao
+            escreval("")
+            escreval("Qual será a ordem de grandeza da sequência? ")
+            escreva("(Digite apenas valores positivos.) ")
+            leia(ordem)
+            escreval("")
 
-               se sinal = "+" entao //para primeiro termo positivo
+               se ordem > 0 entao
+                  se sinal = "+" entao //para primeiro termo positivo
                   n <- 1
                   enquanto (n < sequencia) faca
                      para n de 1 ate sequencia faca
@@ -260,9 +261,14 @@ Inicio
                   fimse
                fimse
             senao
-               escreva("Apenas '+' ou '-' são respostas válidas.") //tratamento de erro
+               escreva("Apenas valores maiores que 0 são válidos.") //tratamento de erro
             fimse
+         senao
+            escreva("Apenas '+' ou '-' são respostas válidas.") //tratamento de erro
          fimse
+      senao
+         escreva ("Apenas valores maiores que 0 são válidos.")//tratamento de erro
+      fimse
 
          escreval ("")
          escreval ("Deseja calcular outra sequência alternada? (s/n)")
