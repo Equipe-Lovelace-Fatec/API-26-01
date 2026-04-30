@@ -55,7 +55,7 @@ Inicio
 
       Se opcao = 1 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("-------------------")
             escreval ("SEQUÊNCIA DE CUBOS")
             escreval ("-------------------")
@@ -90,7 +90,7 @@ Inicio
 
       Se opcao = 2 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             escreval("---------------------------")
             escreval("SEQUÊNCIA DE NÚMEROS PRIMOS")
             escreval("---------------------------")
@@ -132,7 +132,7 @@ Inicio
 
       Se opcao = 3 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("--------------------")
             escreval ("SEQUÊNCIA TRIBONACCI")
             escreval ("--------------------")
@@ -157,7 +157,7 @@ Inicio
                   t2 <- t3
                   t3 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
                fimpara
-            fimse   
+            fimse
             escreval ("Deseja calcular outro Tribonacci? (s/n)")
             leia (repetir)
             limpatela
@@ -166,7 +166,7 @@ Inicio
 
       Se opcao = 4 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("------------------------------")
             escreval ("SEQUÊNCIA NÚMEROS TRIANGULARES")
             escreval ("------------------------------")
@@ -185,7 +185,7 @@ Inicio
       fimse
       Se opcao = 5 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("--------------------")
             escreval ("SEQUÊNCIA FIBONACCI")
             escreval ("--------------------")
@@ -215,7 +215,7 @@ Inicio
 
       se opcao = 6 entao
       repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
          escreval("-------------------")
          escreval("SEQUÊNCIA ALTERNADA")
          escreval("-------------------")
@@ -279,7 +279,7 @@ Inicio
 
    se opcao = 7 entao
          repetir <- "s"
-         enquanto repetir = "s" faca
+         enquanto (repetir = "s") ou (repetir = "S") faca
             // Seção de Comandos, procedimento, funções, operadores, etc...
             escreval (" ====== SEQUÊNCIA DE FATORIAL ====== ")
             escreva ("Escolha um número (entre 0 e 12): ")
@@ -321,6 +321,7 @@ Inicio
 
    se opcao <> 0 entao
       escreval("")
+      escreval("OPÇÃO INVÁLIDA")
       escreval("Pressione ENTER para voltar ao menu...")
       leia(intervalo)
       limpatela
