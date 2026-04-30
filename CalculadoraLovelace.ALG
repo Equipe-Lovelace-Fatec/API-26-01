@@ -71,7 +71,7 @@ Inicio
                escreval ("Escolha o número inteiro final:")
                escreval ("(Entre -99999 e 99999)")
                leia (final)
-               se (final < 99999) ou (final > -99999) entao
+               se (final > 99999) ou (final < -99999) entao
                   escreval ("Escolha um número dentro do intervalo estipulado")
                fimse
             até (final >= -99999) e (final <= 99999)
