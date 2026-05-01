@@ -104,7 +104,7 @@ Para acessar o passo a Passo de Instalação e Execução [Clique aqui!](https:/
 
 ----
 
-**📄 Manual deda Calculadora**
+**📄 Manual da Calculadora**
 
 Para o Manual da Calculadora [Clique aqui!](https://github.com/Equipe-Lovelace-Fatec/API-26-01/blob/main/Manual/Manual%20da%20Calculadora.md)
 
