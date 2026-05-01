@@ -182,8 +182,7 @@ Inicio
             leia(intervalo)
             limpatela
          fimse
-
-         Se opcao = 4 entao
+Se opcao = 4 entao
             repetir <- "s"
             enquanto (repetir = "s") ou (repetir = "S") faca
                escreval ("------------------------------")
@@ -194,13 +193,11 @@ Inicio
                se (posicao >=1) e (posicao <= 46340) entao
                   resposta <- posicao*(posicao+1)/2
                   escreval ("O número triangular na posição", posicao, " é:", resposta)
-                  escreval ("Deseja calcular outra posição? (s/n)")
-                  leia (repetir)
-                  limpatela
                senao
                   escreval ("Você escolheu um número fora do período permitido")
                fimse
-               escreval ("Deseja calcular novamente? (s/n)")
+
+               escreval ("Deseja calcular outra posição? (s/n)")
                leia (repetir)
                limpatela
             fimenquanto
