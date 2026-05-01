@@ -50,7 +50,7 @@ Inicio
          escreval ("6 - Sequência Alternada")
          escreval ("7 - Sequência de Fatorial")
          escreval ("0 - Sair")
-         
+
          leia (opcao)
          se (opcao < 0) ou (opcao > 7) entao
          limpatela
@@ -200,6 +200,9 @@ Inicio
                senao
                   escreval ("Você escolheu um número fora do período permitido")
                fimse
+               escreval ("Deseja calcular novamente? (s/n)")
+               leia (repetir)
+               limpatela
             fimenquanto
             escreval("Pressione ENTER para voltar ao menu...")
             leia(intervalo)
