@@ -87,10 +87,18 @@ Inicio
             até (final >= -99999) e (final <= 99999)
             escreval ("------------------------------------------------------")
             escreval ("A Sequência de Cubos entre", inicial, " e", final, " é:")
-            para i de inicial ate final faca
-               resultado <- i ^ 3
-               escreval (i, "³ = ", resultado)
-            fimpara
+            se inicial <= final entao
+               para i de inicial ate final faca
+                  resultado <- i ^ 3
+                  escreval (i, "³ = ", resultado)
+               fimpara
+            fimse
+            se inicial >= final entao
+               para i de inicial ate  passo -1 faca
+                  resultado <- i ^ 3
+                  escreval (i, "³ = ", resultado)
+               fimpara
+            fimse
             escreval ("")
             escreval ("Deseja calcular outra sequência de cubos? (s/n)")
             leia (repetir)
