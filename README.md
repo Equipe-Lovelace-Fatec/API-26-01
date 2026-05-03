@@ -38,6 +38,7 @@ Desenvolver uma calculadora que realize funções matemáticas avançadas, utili
 | 10 | Média| Como usuário da calculadora, quero ter uma função que calcule e liste a sequência alternada para obter o resultado de forma eficiente e prática.  | 2 | ✅ |
 | 11 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de quadrados perfeitos para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
 | 12 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de geométrica para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
+| 13 | Baixa | Como usuário da calculadora, quero uma interface com cores harmoniosas para ter uma experiência mais agradável durante o uso. | 3 | 🔲 |
 
 
 ## 📅 Cronograma de Sprints <a id="sprint"></a>
