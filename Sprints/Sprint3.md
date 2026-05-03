@@ -10,6 +10,7 @@ Desenvolver uma calculadora que realize os seguintes cálculos: sequência de qu
 |:------:|:------------:|------------|:--------:|:--------:|
 | 11 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência de quadrados perfeitos para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
 | 12 | Baixa | Como usuário da calculadora, quero ter uma função que calcule e liste a sequência geométrica para obter o resultado de forma eficiente e prática.  | 3 | 🔲 |
+| 13 | Baixa | Como usuário da calculadora, quero uma interface com cores harmoniosas para ter uma experiência mais agradável durante o uso. | 3 | 🔲 |
 
 ----
 
