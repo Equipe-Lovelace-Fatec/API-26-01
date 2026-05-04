@@ -1,8 +1,24 @@
 **Manual  da calculadora**
 ------------------------------------------------------------------------------------------------
- 
 
-**Manual do Usuário – Sequência de Cubos**
+## Sumário
+[Manual do Usuário - Sequência de Cubos](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
+
+[Manual do Usuário - Sequência de Números Primos](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
+
+[Manual do Usuário - Sequência de Tribonacci](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-tribonacci)
+
+[Manual do Usuário - Sequência de Números Triangulares](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-triangulares)
+
+[Manual do Usuário - Sequência de Fibonacci](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fibonacci)
+
+[Manual do Usuário - Sequência Alternada](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-alternada)
+
+[Manual do Usuário - Sequência de Fatorial](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fatorial)
+
+----
+
+### Manual do Usuário – Sequência de Cubos
 
 Sequência de Cubos é uma sequência numérica onde cada termo é a terceira potência de um número. 
 
@@ -36,7 +52,9 @@ Digite "n" para não
 
 Importante: digite as letras em minúsculo.  
 
-**Manual do Usuário – Sequência de Números Primos**
+----
+
+### Manual do Usuário – Sequência de Números Primos
 
  
 
@@ -46,9 +64,9 @@ Um número primo é qualquer número natural maior que 1 que pode ser dividido a
 
 Como usar: 
 
-1° passo: selecione a opção 2 no menu da calculadora 
+1° Passo: selecione a opção 2 no menu da calculadora 
 
-2° passo: digite quantos elementos terá a sequência, dentro do limite estipulado (de 1 a 250) 
+2° Passo: digite quantos elementos terá a sequência, dentro do limite estipulado (de 1 a 250) 
 
   
 
@@ -76,7 +94,18 @@ Sequência gerada:
 
  
 
-**Manual do Usuário – Sequência de Tribonacci**
+3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+
+----
+
+### Manual do Usuário – Sequência de Tribonacci
 
  
 
@@ -99,11 +128,11 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo. 
+Importante: digite as letras em minúsculo.  
 
- 
+----
 
-**Manual do Usuário – Sequência de Números Triangulares** 
+### Manual do Usuário – Sequência de Números Triangulares
 
  
 
@@ -131,11 +160,11 @@ Digite "s" para sim
 
 Digite "n" para não   
 
-Importante: digite as letras em minúsculo. 
+Importante: digite as letras em minúsculo.  
 
+----
 
-
-**Manual do Usuário – Sequência de Fibonacci** 
+### Manual do Usuário – Sequência de Fibonacci
 
  
 
@@ -152,9 +181,17 @@ Termo 5º: 3
 
 É possível calcular termos até a 47ª posição. Esse limite existe para evitar estouro de memória no programa utilizado (VisualG), garantindo a precisão dos valores. 
 
- 
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
 
-**Manual do Usuário – Sequência de Alternada**
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+----
+
+### Manual do Usuário – Sequência de Alternada
 
  
 
@@ -194,11 +231,23 @@ O resultado exibido será:
 
 5° termo: 25 
 
-**Manual do Usuário – Sequência de fatorial** 
+
+
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante: digite as letras em minúsculo.  
+
+----
+
+### Manual do Usuário – Sequência de fatorial
 
  
 
- Sequência de fatorial é a multiplicação de um número por todos os anteriores a ele até o número 1.  
+Sequência de fatorial é a multiplicação de um número por todos os anteriores a ele até o número 1.  
 
 1° Passo: Digite um número, o programa vai calcular e mostrar o passo a passo do fatorial desse número.  
 
@@ -218,18 +267,11 @@ Que é basicamente 4! -> 4 x 3 x 2 x 1=24
 
  
 
-2° Passo: No final, o programa vai perguntar se você quer fazer outro cálculo Digite "s" para sim Digite "n" para não OBS: Digite as letras em minúsculo 
+2° Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
 
- 
+Digite "s" para sim   
 
- 
+Digite "n" para não   
 
- 
-
- 
-
- 
-
- 
-
+Importante: digite as letras em minúsculo.  
  
