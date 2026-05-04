@@ -2,19 +2,19 @@
 ------------------------------------------------------------------------------------------------
 
 ## Sumário
-[Manual do Usuário - Sequência de Cubos](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
+[Manual do Usuário - Sequência de Cubos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-cubos)
 
-[Manual do Usuário - Sequência de Números Primos](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
+[Manual do Usuário - Sequência de Números Primos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-primos)
 
-[Manual do Usuário - Sequência de Tribonacci](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-tribonacci)
+[Manual do Usuário - Sequência de Tribonacci](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-tribonacci)
 
-[Manual do Usuário - Sequência de Números Triangulares](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-triangulares)
+[Manual do Usuário - Sequência de Números Triangulares](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-n%C3%BAmeros-triangulares)
 
-[Manual do Usuário - Sequência de Fibonacci](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fibonacci)
+[Manual do Usuário - Sequência de Fibonacci](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fibonacci)
 
-[Manual do Usuário - Sequência Alternada](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-alternada)
+[Manual do Usuário - Sequência Alternada](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-alternada)
 
-[Manual do Usuário - Sequência de Fatorial](https://github.com/Equipe-Lovelace-Fatec/API-26-01/edit/main/Manual/Manual%20da%20Calculadora.md#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fatorial)
+[Manual do Usuário - Sequência de Fatorial](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fatorial)
 
 ----
 
