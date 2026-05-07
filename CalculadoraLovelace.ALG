@@ -293,6 +293,7 @@ Inicio
             ate (ordem >= 1) e (ordem <= 4)
 
             se sinal = "+" entao //para primeiro termo positivo
+               n <- 0
                enquanto (n < sequencia) faca
                   para n de 1 ate sequencia faca
                      termo <- ((-1) ^ (n+1)) * (n^ordem) //cálculo
@@ -303,6 +304,7 @@ Inicio
 
             senao
                se sinal = "-" entao //para primeiro termo negativo
+                  n <- 0
                   enquanto (n < sequencia) faca
                      para n de 1 ate sequencia faca
                         termo <- ((-1) ^ n) * (n^ordem) //cálculo
