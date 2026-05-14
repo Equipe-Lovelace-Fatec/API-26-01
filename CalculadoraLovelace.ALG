@@ -1,17 +1,14 @@
 Algoritmo "CALCULADORA"
 
-
 Var
    // VARIAVEIS NUMEROS PRIMOS
-   num, d, i, sequencia, contador: inteiro //VARIAVEL i para primos e tribonacci e cubos sendo contador na tribonacci, em cubos é a variável contadora que controla o número de repetições
+   num, d, i, sequencia, contador: inteiro
    resto: real
-   //num: números que serão testados, d: divisores dos números, i: números que serão testados como divisores
-   //sequencia: quantidade de elementos que o usuário deseja, contador: acumula a quantidade de numeros primos encontrada
-   //resto: armazena o resto das operações de divisão
    //variável sequencia para primos e alternada
 
    //VARIAVEIS TRIBONACCI
-   t1, t2, t3, consequente, n: inteiro  //variável n para tribonacci e para sequência alternada
+   t1, t2, t3, consequente, n: inteiro
+   //variável n para tribonacci e para sequência alternada
 
    //VARIAVEIS CUBOS
    inicial : inteiro
@@ -24,7 +21,7 @@ Var
    resposta: real
 
    opcao, calculo : inteiro
-   intervalo, repetir : caractere
+   repetir : caractere
 
    //VARIÁVEIS ALTERNADA
    ordem: inteiro
@@ -34,36 +31,28 @@ Var
    //VARIÁVEIS FATORIAL
    nume, indice: inteiro
    fatorial: inteiro
+
 Inicio
+   repetir <- "n"
+   enquanto repetir = "n" faca
 
-   opcao <- -1
-   enquanto opcao <> 0 faca
-      repita
-         escreval ("----------------")
-         escreval ("  CALCULADORA")
-         escreval ("----------------")
-         escreval ("1 - Sequência de Cubos")
-         escreval ("2 - Sequência de Números Primos")
-         escreval ("3 - Sequência Tribonacci")
-         escreval ("4 - Sequência de Números Triangulares")
-         escreval ("5 - Sequência Fibonacci")
-         escreval ("6 - Sequência Alternada")
-         escreval ("7 - Sequência de Fatorial")
-         escreval ("0 - Sair")
-
-         leia (opcao)
-         se (opcao < 0) ou (opcao > 7) entao
-            limpatela
-            escreval("")
-            escreval("OPÇÃO INVÁLIDA")
-            escreval("Pressione ENTER para tentar novamente...")
-            leia(intervalo)
-            limpatela
-         fimse
-      ate (opcao >= 0) e (opcao <= 7)
+      escreval ("----------------")
+      escreval ("  CALCULADORA")
+      escreval ("----------------")
+      escreval ("1 - Sequência de Cubos")
+      escreval ("2 - Sequência de Números Primos")
+      escreval ("3 - Sequência Tribonacci")
+      escreval ("4 - Sequência de Números Triangulares")
+      escreval ("5 - Sequência Fibonacci")
+      escreval ("6 - Sequência Alternada")
+      escreval ("7 - Sequência de Fatorial")
+      escreval ("0 - Sair")
+      escreval("")
+      leia(opcao)
       limpatela
 
-      Se opcao = 1 entao
+      escolha opcao
+      caso 1
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("-------------------")
@@ -104,12 +93,8 @@ Inicio
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-      Se opcao = 2 entao
+      caso 2
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
             escreval("---------------------------")
@@ -128,35 +113,31 @@ Inicio
                fimse
             ate(sequencia >= 1) e (sequencia <= 250)
 
-            num <- 1 //números inteiros que seão testados para serem classificados comoo primos ou não
+            num <- 1
             contador <- 0
 
-            enquanto (contador < sequencia) faca  //repete até que a quantidade de elementos desejada pelo usuário seja encontrada
+            enquanto (contador < sequencia) faca  //repete até que a quantidade de elementos desejada seja encontrada
                d <- 0
-               para i de 1 ate num faca //i faz com que os números sejam divididos por todos os valores até ele mesmo(ex.: 5 será divivido por 1, 2, 3, 4 e 5)
+               para i de 1 ate num faca //números divididos por todos os valores até ele mesmo
                   resto <- num % i
                   se resto = 0 entao
-                     d <- d + 1  // se resto for 0, então um divisor foi encontrado e é contabilizado
+                     d <- d + 1  // divisor foi encontrado e é contabilizado
                   fimse
                fimpara
 
                se (num > 1) e (d = 2)entao  //condição para um número ser primo
-                  contador <- contador + 1 // contabiliza como mais um primo encontrado para a continuação da sequência
+                  contador <- contador + 1 // contabiliza como mais um primo encontrado
                   escreval (contador, "° número primo:",num)
                fimse
                num <- num + 1 //faz o mesmo processo com o próximo número inteiro
             fimenquanto
-
+            escreval ("")
             escreval ("Deseja calcular outro número primo? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-      Se opcao = 3 entao
+      caso 3
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("--------------------")
@@ -185,20 +166,18 @@ Inicio
                   t3 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
                fimpara
             fimse
+            escreval ("")
             escreval ("Deseja calcular outro Tribonacci? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
-      Se opcao = 4 entao
+
+      caso 4
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
-            escreval ("------------------------------")
-            escreval ("SEQUÊNCIA NÚMEROS TRIANGULARES")
-            escreval ("------------------------------")
+            escreval ("---------------------------------")
+            escreval ("SEQUÊNCIA DE NÚMEROS TRIANGULARES")
+            escreval ("---------------------------------")
             escreval ("Qual posição você deseja calcular? (entre 1 a 46340)")
             leia (posicao)
             se (posicao >=1) e (posicao <= 46340) entao
@@ -208,17 +187,13 @@ Inicio
                escreval ("Você escolheu um número fora do período permitido")
             fimse
 
+            escreval ("")
             escreval ("Deseja calcular outra posição? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-
-      Se opcao = 5 entao
+      caso 5
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
             escreval ("--------------------")
@@ -243,16 +218,14 @@ Inicio
                   t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
                fimpara
             fimse
+
+            escreval ("")
             escreval ("Deseja calcular outro Fibonacci? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-      se opcao = 6 entao
+      caso 6
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
             escreval("-------------------")
@@ -320,16 +293,14 @@ Inicio
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-      se opcao = 7 entao
+      caso 7
          repetir <- "s"
          enquanto (repetir = "s") ou (repetir = "S") faca
-            // Seção de Comandos, procedimento, funções, operadores, etc...
-            escreval (" ====== SEQUÊNCIA DE FATORIAL ====== ")
+            escreval("---------------------")
+            escreval("SEQUÊNCIA DE FATORIAL")
+            escreval("---------------------")
+            escreval("")
             escreva ("Escolha um número (entre 0 e 12): ")
             leia(nume)
             //Verifica se o número é valido
@@ -356,20 +327,22 @@ Inicio
                escreval(" =", fatorial)
             fimse
 
+            escreval ("")
             escreval ("Deseja calcular outro fatorial? (s/n)")
             leia (repetir)
             limpatela
          fimenquanto
-         escreval("Pressione ENTER para voltar ao menu...")
-         leia(intervalo)
-         limpatela
-      fimse
 
-      Se opcao = 0 entao
-         escreval ("Você escolheu sair")
-      fimse
+      caso 0
+         repetir <- "s"
+         escreval ("Você escolheu sair.")
 
+      outrocaso
+         repetir <- "n"
+         escreval("Opção inválida. Digite um dos valores presentes no menu.")
+         escreval("")
+
+      fimescolha
    fimenquanto
-
 
 Fimalgoritmo
