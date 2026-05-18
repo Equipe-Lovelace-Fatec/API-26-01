@@ -83,7 +83,7 @@ Inicio
                fimpara
             fimse
             se inicial >= final entao
-               para i de inicial ate  passo -1 faca
+               para i de inicial ate final passo -1 faca
                   resultado <- i ^ 3
                   escreval (i, "³ = ", resultado)
                fimpara
