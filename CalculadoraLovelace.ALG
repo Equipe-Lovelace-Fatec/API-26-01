@@ -34,6 +34,8 @@ Var
 
 
 Inicio
+   Mudacor ("Preto", "Fundos")
+   Mudacor ("Amarelo", "Frente")
    repetir <- "n"
    enquanto repetir = "n" faca
 
