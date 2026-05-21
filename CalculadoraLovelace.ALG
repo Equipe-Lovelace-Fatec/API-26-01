@@ -32,6 +32,7 @@ Var
    nume, indice: inteiro
    fatorial: inteiro
 
+
 Inicio
    repetir <- "n"
    enquanto repetir = "n" faca
@@ -46,6 +47,7 @@ Inicio
       escreval ("5 - Sequência Fibonacci")
       escreval ("6 - Sequência Alternada")
       escreval ("7 - Sequência de Fatorial")
+      escreval ("8 - Sequência de Quadrados Perfeitos")
       escreval ("0 - Sair")
       escreval("")
       leia(opcao)
@@ -332,6 +334,69 @@ Inicio
             leia (repetir)
             limpatela
          fimenquanto
+
+      caso 8
+         repetir <- "s"
+         enquanto (repetir = "s") ou (repetir = "S") faca
+            escreval("--------------------------------------")
+            escreval("SEQUÊNCIA DE QUADRADOS PERFEITOS")
+            escreval("--------------------------------------")
+            escreval("")
+            repita
+               escreval("Escolha o número inteiro inicial:")
+               escreval("(Entre 0 e 99999)")
+               leia(resultado)
+               se (resultado < 0) ou (resultado > 99999) ou (resultado - int(resultado) <> 0) entao
+                  escreval("Escolha um número dentro do intervalo estipulado")
+               fimse
+            ate (resultado >= 0) e (resultado <= 99999) e (resultado - int(resultado) = 0)
+            inicial <- int(resultado)
+
+            repita
+               escreval("Escolha o número inteiro final:")
+               escreval("(Entre 0 e 99999)")
+               leia(resultado)
+               se (resultado < 0) ou (resultado > 99999) ou (resultado - int(resultado) <> 0) entao
+                  escreval("Escolha um número dentro do intervalo estipulado")
+               fimse
+            ate (resultado >= 0) e (resultado <= 99999) e (resultado - int(resultado) = 0)
+            final <- int(resultado)
+
+            escreval("------------------------------------------------------")
+            escreval("Quadrados perfeitos entre ", inicial, " e ", final, ":")
+            escreval("")
+
+            se inicial <= final entao
+               para i de inicial ate final faca
+                  contador <- 0
+                  enquanto (contador * contador) <= i faca
+                     contador <- contador + 1
+                  fimenquanto
+                  contador <- contador - 1
+                  se (contador * contador) = i entao
+                     escreval(i, " - Raiz: ", contador)
+                  fimse
+               fimpara
+            fimse
+
+            se inicial > final entao
+               para i de inicial ate final passo -1 faca
+                  contador <- 0
+                  enquanto (contador * contador) <= i faca
+                     contador <- contador + 1
+                  fimenquanto
+                  contador <- contador - 1
+                  se (contador * contador) = i entao
+                     escreval(i, " - Raiz: ", contador)
+                  fimse
+               fimpara
+            fimse
+            escreval("")
+            escreval("Deseja calcular outra sequência de quadrados perfeitos? (s/n)")
+            leia(repetir)
+            limpatela
+         fimenquanto
+         limpatela
 
       caso 0
          repetir <- "s"
