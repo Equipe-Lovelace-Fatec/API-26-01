@@ -308,7 +308,7 @@ Inicio
             leia(num)
             //Verifica se o número é valido
             se (num <= 0) ou (num > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
-               escreval("Valor inválido!!!")
+               escreval("Valor inválido!")
             senao
                fatorial <- 1 //A base do fatorial é o 1
 
