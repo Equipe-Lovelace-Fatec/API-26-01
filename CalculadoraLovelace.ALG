@@ -29,7 +29,6 @@ Var
    termo: real
 
    //VARIÁVEIS FATORIAL
-   nume, indice: inteiro
    fatorial: inteiro
 
 
@@ -306,25 +305,25 @@ Inicio
             escreval("---------------------")
             escreval("")
             escreva ("Escolha um número (entre 0 e 12): ")
-            leia(nume)
+            leia(num)
             //Verifica se o número é valido
-            se (nume < 0) ou (nume > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
-               escreval("Número inválido!!!")
+            se (num <= 0) ou (num > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
+               escreval("Valor inválido!!!")
             senao
                fatorial <- 1 //A base do fatorial é o 1
 
-               escreva(nume, "!") //mostra a conta, nao apenas o resultado
+               escreva(num, "!") //mostra a conta, nao apenas o resultado
 
 
                //loop para calcular o fatorial
-               para indice de nume ate 1 passo -1 faca
-                  escreva(indice) //mostra o numero atual
+               para i de num ate 1 passo -1 faca
+                  escreva(i) //mostra o numero atual
 
-                  se indice > 1 entao
+                  se i > 1 entao
                      escreva (" x")
                   fimse
 
-                  fatorial <- fatorial * indice
+                  fatorial <- fatorial * i
                fimpara
 
                //resultado final
