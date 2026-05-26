@@ -5,6 +5,7 @@ Var
    num, d, i, sequencia, contador: inteiro
    resto: real
    //variável sequencia para primos e alternada
+   // Variáveis "num" e "sequencia" usadas na seq. geometrica
 
    //VARIAVEIS TRIBONACCI
    t1, t2, t3, consequente, n: inteiro
@@ -15,6 +16,7 @@ Var
    final : inteiro
    resultado : real
    // não é possível rodar com o resultado sendo inteiro por conta da potência
+   // Variáveis "inicial" e "resultado" usadas na seq. geometrica (mesmo problema de potência)
 
    //VARIAVEIS TRIANGULARES
    posicao: inteiro
@@ -49,6 +51,7 @@ enquanto repetir = "n" faca
    escreval ("6 - Sequência Alternada")
    escreval ("7 - Sequência de Fatorial")
    escreval ("8 - Sequência de Quadrados Perfeitos")
+   escreval ("9 - Sequência Geométrica")
    escreval ("0 - Sair")
    escreval("")
    leia(opcao)
@@ -406,6 +409,78 @@ enquanto repetir = "n" faca
          limpatela
       fimenquanto
       limpatela
+
+   caso 9
+      repetir <- "s"
+      enquanto (repetir = "s") ou (repetir = "S") faca
+         escreval("---------------------------")
+         escreval("SEQUÊNCIA GEOMÉTRICA")
+         escreval("---------------------------")
+         escreval("")
+
+         repita
+            escreval("Qual o termo inicial da sequência? ") //a1
+            escreva("(Escolha um valor entre 1 e 10) ")
+            escreval("")
+            leia(inicial)    // inteiro
+            se (inicial < 1) ou (inicial > 10) entao
+               escreval("")
+               escreval("Você escolheu um valor fora do limite.")
+               escreval("Digite outro valor.")
+               escreval("")
+            fimse
+         ate(inicial >= 1) e (inicial <= 10)
+         escreval("")
+
+         repita
+            escreval("Qual a razão da sequência? ") //r
+            escreva("(Escolha um valor entre 1 e 5) ")
+            escreval("")
+            leia(sequencia)    // inteiro
+            se (sequencia < 1) ou (sequencia > 5) entao
+               escreval("")
+               escreval("Você escolheu um valor fora do limite.")
+               escreval("Digite outro valor.")
+               escreval("")
+            fimse
+         ate(sequencia >= 1) e (sequencia <= 5)
+         escreval("")
+
+         repita
+            escreval("Qual a posição do termo que quer descobrir? ")
+            escreva("(Escolha um valor entre 1 e 21) ")
+            escreval("")
+            leia(num)  // inteiro
+            se (num < 1) ou (num > 21) entao
+               escreval("")
+               escreval("Você escolheu um valor fora do limite.")
+               escreval("Digite outro valor.")
+               escreval("")
+            fimse
+         ate(num >= 1) e (num <= 21)
+         limpatela
+
+         escreval ("Termo inicial:",inicial)
+         escreval ("Razão:",sequencia)
+         escreval ("Termo de posição:",num)
+         escreval ("")
+
+         resultado<-(inicial*(sequencia^(num-1)))
+         escreval ("O valor do", num,"° termo é",resultado)
+         //cálculo: a(num) = a1(inicial) * r(sequencia)^(n(posi.num)-1)
+         escreval ("")
+         // laço para calcular e mostrar os termos
+         para num de 1 ate num faca
+            // calcula o termo atual da posição
+            resultado<-(inicial*(sequencia^(num-1)))
+            escreval (resultado, " -",num,"° termo")
+         fimpara
+
+         escreval("")
+         escreval("Deseja calcular outra sequência geométrica? (s/n)")
+         leia(repetir)
+         limpatela
+      fimenquanto
 
    caso 0
       repetir <- "s"
