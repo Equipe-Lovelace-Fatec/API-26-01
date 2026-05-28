@@ -426,7 +426,6 @@ enquanto repetir = "n" faca
             se (inicial < 1) ou (inicial > 10) entao
                escreval("")
                escreval("Você escolheu um valor fora do limite.")
-               escreval("Digite outro valor.")
                escreval("")
             fimse
          ate(inicial >= 1) e (inicial <= 10)
@@ -440,7 +439,6 @@ enquanto repetir = "n" faca
             se (sequencia < 1) ou (sequencia > 5) entao
                escreval("")
                escreval("Você escolheu um valor fora do limite.")
-               escreval("Digite outro valor.")
                escreval("")
             fimse
          ate(sequencia >= 1) e (sequencia <= 5)
@@ -454,7 +452,6 @@ enquanto repetir = "n" faca
             se (num < 1) ou (num > 21) entao
                escreval("")
                escreval("Você escolheu um valor fora do limite.")
-               escreval("Digite outro valor.")
                escreval("")
             fimse
          ate(num >= 1) e (num <= 21)
