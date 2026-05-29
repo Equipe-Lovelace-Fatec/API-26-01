@@ -363,7 +363,6 @@ enquanto repetir = "n" faca
             fimse
          ate (resultado >= 0) e (resultado <= 99999) e (resultado - int(resultado) = 0)
          inicial <- int(resultado)
-
          repita
             escreval("Escolha o número inteiro final:")
             escreval("(Entre 0 e 99999)")
@@ -373,12 +372,12 @@ enquanto repetir = "n" faca
             fimse
          ate (resultado >= 0) e (resultado <= 99999) e (resultado - int(resultado) = 0)
          final <- int(resultado)
-
          escreval("------------------------------------------------------")
          escreval("Quadrados perfeitos entre ", inicial, " e ", final, ":")
          escreval("")
 
          se inicial <= final entao
+            sequencia <- 0
             para i de inicial ate final faca
                contador <- 0
                enquanto (contador * contador) <= i faca
@@ -387,11 +386,16 @@ enquanto repetir = "n" faca
                contador <- contador - 1
                se (contador * contador) = i entao
                   escreval(i, " - Raiz: ", contador)
+                  sequencia <- sequencia + 1
                fimse
             fimpara
+            se sequencia = 0 entao
+               escreval("Nenhum quadrado perfeito encontrado neste intervalo.")
+            fimse
          fimse
 
          se inicial > final entao
+            sequencia <- 0
             para i de inicial ate final passo -1 faca
                contador <- 0
                enquanto (contador * contador) <= i faca
@@ -400,9 +404,14 @@ enquanto repetir = "n" faca
                contador <- contador - 1
                se (contador * contador) = i entao
                   escreval(i, " - Raiz: ", contador)
+                  sequencia <- sequencia + 1
                fimse
             fimpara
+            se sequencia = 0 entao
+               escreval("Nenhum quadrado perfeito encontrado neste intervalo.")
+            fimse
          fimse
+
          escreval("")
          escreval("Deseja calcular outra sequência de quadrados perfeitos? (s/n)")
          leia(repetir)
