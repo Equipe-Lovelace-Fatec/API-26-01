@@ -149,14 +149,19 @@ enquanto repetir = "n" faca
          escreval ("--------------------")
          escreval ("SEQUÊNCIA TRIBONACCI")
          escreval ("--------------------")
+         escreval("")
+
+         repita
          escreval("Quantos termos quer em sua sequência?")
          escreval("(Escolha um valor entre 4 e 39)")
          escreval()
          escreva("Número de termos = ")
          leia(n)
-         se (n <= 3) ou (n > 39) entao  // limitação
-            escreval("Valor invalido! Escreva um valor entre 4 e 39!")
-         senao
+          se (n <=3) ou (n > 39) entao  // limitação
+               escreval ("Você escolheu um valor fora do limite. Digite outro valor.")
+               escreval("")
+          fimse
+         ate(n >= 4) e (n <= 39)
             t1 <- 0  // condições fixas
             t2 <- 0
             t3 <- 1
@@ -171,7 +176,6 @@ enquanto repetir = "n" faca
                t2 <- t3
                t3 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
             fimpara
-         fimse
          escreval ("")
          escreval ("Deseja calcular outro Tribonacci? (s/n)")
          leia (repetir)
@@ -213,14 +217,19 @@ enquanto repetir = "n" faca
          escreval ("--------------------")
          escreval ("SEQUÊNCIA FIBONACCI")
          escreval ("--------------------")
+         escreval("")
+
+      repita
          escreval("Quantos termos quer em sua sequência?")
          escreval("(Escolha um valor entre 3 e 47)")
          escreval()
          escreva("Número de termos = ")
          leia(n)
-         se (n <= 2) ou (n > 47) entao // limitação
-            escreval("Valor invalido! Escreva um valor entre 3 e 47!")
-         senao // tratamento dos 2 primeiros termos para não entrarem no laço "para"
+        se (n <= 2) ou (n > 47) entao // limitação
+            escreval ("Você escolheu um valor fora do limite. Digite outro valor.")
+            escreval("")
+       fimse
+       ate(n >= 3) e (n <= 47)
             t1 <- 0  // condições fixas
             t2 <- 1
             escreval("Termo 1º:",t1)
@@ -231,7 +240,6 @@ enquanto repetir = "n" faca
                t1 <- t2
                t2 <- consequente // "deslizamento" dos valores. Guardando apenas os ultimos termos.
             fimpara
-         fimse
 
          escreval ("")
          escreval ("Deseja calcular outro Fibonacci? (s/n)")
