@@ -18,6 +18,8 @@
 
 [Manual do Usuário - Sequência de Quadrados Perfeitos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-quadrados-perfeitos)
 
+[Manual do Usuário - Sequência Geométrica](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-geom%C3%89trica)
+
 ----
 
 ### 🔢Manual do Usuário – Sequência de Cubos
@@ -310,3 +312,51 @@ Digite "n" para não
 
 Importante❗: digite as letras em minúsculo.
  
+----
+
+### 🔢Manual do Usuário – Sequência Geométrica
+
+
+
+Uma sequência geométrica é uma lista de números onde cada termo, a partir do segundo, é gerado multiplicando o termo anterior por um valor fixo chamado razão.
+Este programa calcula o valor de um termo específico em uma posição desejada e, em seguida, exibe a sequência completa até o termo desejado.
+### 📌1º Passo: Escolha a opção 9 para calcular uma sequência geométrica.   
+
+### 📌2º Passo: Inserir três informações para gerar a sequência. 
+2.1. Definir o termo inicial
+O programa solicitará o primeiro número da sequência (entre 1 e 10). 
+
+2.2. Definir a razão
+O programa perguntará o fator multiplicador da sequência (entre 1 e 5) 
+
+2.3. Escolher a posição do termo
+Digite qual posição da sequência você deseja descobrir (entre 1 e 21).
+
+Após preencher os dados corretamente, a tela será limpa e o programa exibirá o resumo das informações, o valor exato do termo que você queria descobrir e a lista com todos os termos anteriores a ele.
+
+### 📍Exemplo de uso: 
+O programa fará as seguintes perguntas:
+
+Qual o termo inicial da sequência?  2
+
+Qual a razão da sequência?  3
+
+Qual a posição do termo que quer descobrir?  4
+
+O resultado aparecerá na tela dessa forma:
+
+Termo Inicial: 2
+Razão: 3
+Posição do Termo: 4
+
+O valor do 4° termo é 54
+
+2 - 1° termo
+6 - 2° termo
+18 - 3° termo
+54 - 4° termo
+
+
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.
+Digite "s" para sim
+Digite "n" para não
