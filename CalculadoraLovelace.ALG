@@ -323,20 +323,23 @@ enquanto repetir = "n" faca
          escreval("SEQUÊNCIA DE FATORIAL")
          escreval("---------------------")
          escreval("")
-         escreva ("Escolha um número (entre 0 e 12): ")
-         leia(num)
-         //Verifica se o número é valido
-         se (num <= 0) ou (num > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
-            escreval("Valor inválido!")
-         senao
-            fatorial <- 1 //A base do fatorial é o 1
+         repita
+            escreva ("Escolha um número (entre 0 e 12): ")
+            leia(num)
+            //Verifica se o número é valido
+            se (num < 0) ou (num > 12) entao //12 FATORIAL é o limite no VisualG, um numero maior ficará com o resultado incorreto
+               escreval("Valor inválido! Digite Novamente")
+            fimse
+         ate (num >= 0) e (num <= 12)
+            
+         fatorial <- 1 //A base do fatorial é o 1
 
-            escreva(num, "!") //mostra a conta, nao apenas o resultado
+         escreva(num, "!") //mostra a conta, nao apenas o resultado
 
 
-            //loop para calcular o fatorial
-            para i de num ate 1 passo -1 faca
-               escreva(i) //mostra o numero atual
+         //loop para calcular o fatorial
+         para i de num ate 1 passo -1 faca
+            escreva(i) //mostra o numero atual
 
                se i > 1 entao
                   escreva (" x")
