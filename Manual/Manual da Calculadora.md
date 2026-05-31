@@ -335,7 +335,6 @@ Digite qual posição da sequência você deseja descobrir (entre 1 e 21).
 Após preencher os dados corretamente, a tela será limpa e o programa exibirá o resumo das informações, o valor exato do termo que você queria descobrir e a lista com todos os termos anteriores a ele.
 
 ### 📍Exemplo de uso: 
-O programa fará as seguintes perguntas:
 
 Qual o termo inicial da sequência?  2
 
@@ -343,20 +342,30 @@ Qual a razão da sequência?  3
 
 Qual a posição do termo que quer descobrir?  4
 
+
 O resultado aparecerá na tela dessa forma:
 
+
 Termo Inicial: 2
+
 Razão: 3
+
 Posição do Termo: 4
 
 O valor do 4° termo é 54
 
 2 - 1° termo
+
 6 - 2° termo
+
 18 - 3° termo
+
 54 - 4° termo
 
 
-Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.
-Digite "s" para sim
-Digite "n" para não
+### 📌3º Passo: Novo cálculo.
+Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não 
