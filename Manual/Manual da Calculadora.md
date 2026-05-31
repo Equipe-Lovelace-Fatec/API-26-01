@@ -16,6 +16,8 @@
 
 [Manual do Usuário - Sequência de Fatorial](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-fatorial)
 
+[Manual do Usuário - Sequência de Quadrados Perfeitos](#manual-do-usu%C3%A1rio--sequ%C3%AAncia-de-quadrados-perfeitos)
+
 ----
 
 ### 🔢Manual do Usuário – Sequência de Cubos
@@ -266,4 +268,45 @@ Digite "s" para sim
 Digite "n" para não   
 
 Importante❗: digite as letras em minúsculo.  
+
+
+----
+
+### 🔢Manual do Usuário – Sequência de Quadrados Perfeitos
+
+
+
+Sequência de Quadrados Perfeitos é uma sequência numérica em que cada termo é o resultado da segunda potência de um número inteiro não negativo, ou seja, um número multiplicado por ele mesmo.
+
+### 📌1º Passo: Digite o número inicial da sequência.  
+
+### 📌2º Passo: Digite o número final da sequência.  
+
+O programa irá calcular e exibir os resultados dos números que são quadrados perfeitos dentro do intervalo informado, mostrando o número e qual a raiz correspondente.  
+
+### 📍Exemplo de uso:   
+
+Número inicial: 1   
+
+Número final: 30   
+
+O programa mostrará:  
+
+1² = Raiz: 1   
+
+4² = Raiz: 2   
+
+9² = Raiz: 3   
+
+16² = Raiz: 4   
+
+25² = Raiz: 5   
+
+### 📌3º Passo: Ao final da execução, o programa perguntará se você deseja realizar um novo cálculo.  
+
+Digite "s" para sim   
+
+Digite "n" para não   
+
+Importante❗: digite as letras em minúsculo.
  
