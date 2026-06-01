@@ -350,7 +350,6 @@ enquanto repetir = "n" faca
 
             //resultado final
             escreval(" =", fatorial)
-         fimse
 
          escreval ("")
          escreval ("Deseja calcular outro fatorial? (s/n)")
